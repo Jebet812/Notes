@@ -18,4 +18,4 @@
 * **High Availability:** High Available systems are desiggned to operate continously without failure for a long time by reducing and managing failure.
 * **Elasticity:** You can provision only what need then grow or shrink on demand.
 * **Agility:** All services give you access to help you innovate faster, giving you speed to market.
-* **Durability:** Data remains intact without ciorruption.
+* **Durability:** Data remains intact without corruption.
