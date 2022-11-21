@@ -31,3 +31,5 @@
 * **Cloud-based deployment:** Migrate all existing applications to cloud or design and build new applications on cloud.
 * **On-Prem/Private cloud deployment:** Resources are deployed on prenises by using virtualization and resource management tools.
 * **Hybrid deployment:** Connects cloud based resources to on-prem infrastructure. Supported by AWS Direct Connect.
+
+## Global Networking
