@@ -22,6 +22,6 @@
 
 ***Cloud Computing Models***
 
-* **Infrastructure as a Service (IaaS):**
-* **Platfrorm as a Service(PaaS):**
-* **Software as a Service(SaaS):**
+* **Infrastructure as a Service (IaaS):** Contains asic building locks for cloud IT that can be rented *e.g.* Amazon EC2.
+* **Platfrorm as a Service(PaaS):** Enables you develop software using web-based tools without worrying about underlying infrastructure *e.g.* AWS Cloud9.
+* **Software as a Service(SaaS):** Provides you with completed product managed and run by a service provider *e.g.* Amazon SageMaker.
