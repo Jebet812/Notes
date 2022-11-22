@@ -1,4 +1,4 @@
-# AWS Certfied Cloud Practitioner 
+# AWS Certified Cloud Practitioner 
 
 ## Cloud Computing
 
