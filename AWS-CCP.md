@@ -34,7 +34,7 @@
 
 ## Global Networking
 
-* **Regions:** They are isolated geographical areas containing AWS resources. Its characteristics are:
+* **Regions:** They are isolated geographical areas containing AWS resources. Its characteristics are: </br>
       - They are fully independent and isolated.
       - They are resource and service specific.
 When choosing a region for services, data and application consider these factors:
