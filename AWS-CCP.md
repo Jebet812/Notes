@@ -1,6 +1,9 @@
 # AWS Certified Cloud Practitioner 
 
-## Cloud Computing
+<details><summary>Cloud Computing</summary>
+<p>
+
+
 
 **Cloud Computing:** On demand delivery of IT resources over the internet.
 
@@ -31,6 +34,10 @@
 * **Cloud-based deployment:** Migrate all existing applications to cloud or design and build new applications on cloud.
 * **On-Prem/Private cloud deployment:** Resources are deployed on prenises by using virtualization and resource management tools.
 * **Hybrid deployment:** Connects cloud based resources to on-prem infrastructure. Supported by AWS Direct Connect.
+
+
+</p>
+</details>
 
 ## Global Networking
 
