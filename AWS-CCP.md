@@ -3,8 +3,6 @@
 <details><summary>Cloud Computing</summary>
 <p>
 
-
-
 **Cloud Computing:** On demand delivery of IT resources over the internet.
 
 ***Advantages of Cloud Computing***
@@ -39,6 +37,9 @@
 </p>
 </details>
 
+<details><summary>Global Networking</summary>
+<p>
+
 ## Global Networking
 
 * **Regions:** They are isolated geographical areas containing AWS resources. Its characteristics are: </br>
@@ -64,4 +65,5 @@ There are more edge locations than regions and availability zones.
 
 
  
-
+</p>
+</details>
