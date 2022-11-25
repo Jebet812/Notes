@@ -3,7 +3,7 @@
 <details><summary>Cloud Computing</summary>
 <p>
 
-##Cloud Computing
+## Cloud Computing
 
 **Cloud Computing:** On demand delivery of IT resources over the internet.
 
