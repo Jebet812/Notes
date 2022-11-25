@@ -33,3 +33,4 @@
 * **Hybrid deployment:** Connects cloud based resources to on-prem infrastructure. Supported by AWS Direct Connect.
 
 ## Global Networking
+
