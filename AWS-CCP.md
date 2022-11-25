@@ -42,11 +42,14 @@ When choosing a region for services, data and application consider these factors
       - Proximity of customers.</br>
       - Available services/features within a region.</br>
       - Pricing.</br>
+
 * **Availability Zones:** A single or a group of data centres within a region. It contains servers which you can rent and is where you provision resources and deploy applications. Its characteristics are:
      - They are physically separated.
      - They are connected through low latency links.
      - They are fault tolerant.
      - They allow for high availability.
+
+* **Edge Locations:**
 
  
 
