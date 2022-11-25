@@ -35,5 +35,5 @@
 ## Global Networking
 
 * **Regions:** They are isolated geographical areas containing AWS resources.
-* **
+* **Availability Zones:** A single or a group of data centres within a region. It contains servers which you can rent 
 
