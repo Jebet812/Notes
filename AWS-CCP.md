@@ -49,7 +49,9 @@ When choosing a region for services, data and application consider these factors
      - They are fault tolerant.
      - They allow for high availability.
 
-* **Edge Locations:**
+* **Edge Locations:** Locations used to store cached copies of content close to customers for fater delivery. </br>
+It ***reduces latency*** (time between user request and resulting response) and ***speeds up delivery of application.***</br>
+
 
  
 
