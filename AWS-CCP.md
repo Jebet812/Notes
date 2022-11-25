@@ -34,6 +34,14 @@
 
 ## Global Networking
 
-* **Regions:** They are isolated geographical areas containing AWS resources.
-* **Availability Zones:** A single or a group of data centres within a region. It contains servers which you can rent 
+* **Regions:** They are isolated geographical areas containing AWS resources. Its characteristics are:
+      - They are fully independent and isolated.
+      - They are resource and service specific.
+* **Availability Zones:** A single or a group of data centres within a region. It contains servers which you can rent and is where you provision resources and deploy applications. Its characteristics are:
+     - They are physically separated.
+     - They are connected through low latency links
+     - They are fault tolerant.
+     - They allow for high availability.
+
+ 
 
