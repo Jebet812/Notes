@@ -49,8 +49,9 @@ When choosing a region for services, data and application consider these factors
      - They are fault tolerant.
      - They allow for high availability.
 
-* **Edge Locations:** Locations used to store cached copies of content close to customers for fater delivery. </br>
-It ***reduces latency*** (time between user request and resulting response) and ***speeds up delivery of application.***</br>
+* **Edge Locations:** Locations used to store cached copies of content close to customers for faster delivery. This is made possinble through *Amazon CloudFront* (is a content delivery network to deliver data, video, applications and APIs with low latency and hig transfer speeds </br>
+It *reduces latency* (time between user request and resulting response) and *speeds up delivery of application.*</br>
+There are more edge locations than regions and availability zones.
 
 
  
