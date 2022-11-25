@@ -37,11 +37,11 @@
 * **Regions:** They are isolated geographical areas containing AWS resources. Its characteristics are: </br>
       - They are fully independent and isolated.</br>
       - They are resource and service specific.</br>
-When choosing a region for services, data and application consider these factors:
-      - Compliance.
+When choosing a region for services, data and application consider these factors:</br>
+      - Compliance.</br>
       - Proximity of customers.
-      - Available services/features within a region.
-      - Pricing.
+      - Available services/features within a region.</br>
+      - Pricing.</br>
 * **Availability Zones:** A single or a group of data centres within a region. It contains servers which you can rent and is where you provision resources and deploy applications. Its characteristics are:
      - They are physically separated.
      - They are connected through low latency links
