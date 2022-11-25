@@ -34,3 +34,5 @@
 
 ## Global Networking
 
+**Regions:** They are isolated geographical areas containing AWS resources.
+
