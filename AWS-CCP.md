@@ -69,3 +69,14 @@ There are more edge locations than regions and availability zones.
  
 </p>
 </details>
+
+
+</p>
+</details>
+
+<details><summary>Technology</summary>
+<p>
+
+## Technology.
+
+### Compute 
