@@ -150,9 +150,17 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 Use *service control policies* to centrally control pernmissions for the accounts in organization.
 
 ### Compliance 
-1. **AWS Artifact:** service that provides on demand access to AWS security and compliance reports and select online agreements.
-* *AWS artifact agreements*
-* *AWS Artifact Reports*
+1. **AWS Artifact:** service that provides on demand access to AWS security and compliance reports and select online agreements. Has two sections:
+* *AWS Artifact Agreements*
+* *AWS Artifact Reports* 
+
+To get resources, get whitepapers, documentation and learn more about AWS compliance go to *compliance centre*
+
+### Denial of  Service Attacks
+1. **AWS Shield:** protects applications against DDoS attacks. Provides two levels;
+* *AWS Shield Starndard:* 
+* *AWS Shield Advance:*
+
 
 
 
