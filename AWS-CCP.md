@@ -107,6 +107,19 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 2. Bare Metal inatances
 
 
+### Storage
+
+#### Block Storage
+
+#### File Storage 
+
+
+#### Object Storage 
+##### Amazon Simple Service Storage (S3)
+
+
+
+
 
 
 
