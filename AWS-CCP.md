@@ -91,3 +91,22 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 2. Secure Shell (SSH):
 3. EC2 Instance Connect (EIC):
 4. AWS Systems Manager
+
+#### Amazon Lightsail
+
+#### AWS Lambda
+
+#### Containers
+1. Elastic Container Service (ECS)
+2. Elastic Container Registry (ECR)
+3. ECS Fargate
+4. Elastic Kubernetes Servise (EKS)
+
+#### High Performance Computing Services
+1. Nitro System
+2. Bare Metal inatances
+
+
+
+
+
