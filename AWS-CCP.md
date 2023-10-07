@@ -158,8 +158,26 @@ To get resources, get whitepapers, documentation and learn more about AWS compli
 
 ### Denial of  Service Attacks
 1. **AWS Shield:** protects applications against DDoS attacks. Provides two levels;
-* *AWS Shield Starndard:* 
-* *AWS Shield Advance:*
+* *AWS Shield Starndard:* protects all customers from common, frequent attacks at no cost.
+* *AWS Shield Advance:* paid service that provides detailed attack diagnosis and ability to detect and mitigate sophisticated attacks. For higher levels of protection against attacks targeting your web applications running on Amazon EC2, Elastic Load Balancing (ELB), CloudFront, and Route-53 resources, you can subscribe to AWS Shield Advanced. 
+2. **AWS Config:**
+
+### Encryption
+1. **AWS Key Management Service(KMS):** enables creation and management of encryption keys. Intergrates with *AWS Cloudtrail* to provide logs to help meet regulation and compliance.
+
+### Additional Security Services
+1. **Amazon Inspector:**
+2. **Amazon GuardDuty:**
+3. **AWS WAF:**
+
+### Security Design Principles
+1. Implement a strong identity foundation.
+2. Enable traceability.
+3. Apply security at all layers.
+4. Automate security best practices.
+5. Protect data in transit and at rest.
+6. Keep people away from data.
+7. Prepare for security events.
 
 
 
