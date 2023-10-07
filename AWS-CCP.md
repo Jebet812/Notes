@@ -118,8 +118,14 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 ##### Amazon Simple Service Storage (S3)
 
 
+### Databases
 
 
+</p>
+</details>
 
+
+<details><summary>Security</summary>
+<p>
 
 
