@@ -84,4 +84,4 @@ There are more edge locations than regions and availability zones.
 #### Elastic Compute Cloud (EC2)
 Allows you one to reny and manage virtual servers in the cloud. It provides secure, resizable compute capacity in the cloud as EC2 instances.<br/> 
 *Servers* are the physical compute hardware running in a data center.<br/> 
-*Instances* are not considered serverless because they exost on a server in a datacentre.<br/> 
+*Instances* are not considered serverless because they exist on a server in a datacentre.<br/> 
