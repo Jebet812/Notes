@@ -128,4 +128,31 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 <details><summary>Security</summary>
 <p>
 
+## Security
+
+### Shared Responsibility Model
+#### AWS Responsiilty (Security Of The Cloud)
+
+#### Customer's Responsibility (Security In The Cloud)
+
+### User Permsissions and Acces
+1. **AWS Root User**
+2. **AWS Identity and Access Management**
+3. **IAM Users**
+4. **IAM Policies** 
+5. **IAM Groups**
+6. **IAM Roles**
+
+### AWS Organizations
+- Provides centaralized management of AWS accounts
+- Consolidated billing (bulk discounts)
+- Implement hierachal groupingg of accounts
+Use *service control policies* to centrally control pernmissions for the accounts in organization.
+
+### Compliance 
+1. **AWS Artifact:** service that provides on demand access to AWS security and compliance reports and select online agreements.
+* *AWS artifact agreements*
+* *AWS Artifact Reports*
+
+
 
