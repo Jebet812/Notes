@@ -122,6 +122,7 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 2. **Amazon Dynamo DB:**  a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, automated multi-Region replication, in-memory caching, and data import and export tools. Is *serverless* For cases requiring high performance and scaling.
 3. **Amazon Aurora:** Enterprise-class relational database. Compatible with MySQL and PostgreSQL. 5X faster than starndard MySQL and 3X than starndard PostgreSQL.
 4. **Amazon RedShift:** Data warehousing service you can use for big data and analytics.<br>
+
 ***Additional Database Services***
 * Amazon DocumentDB (with Mongo DB compatibility)
 * Amazon Neptune
@@ -131,10 +132,57 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 * Amazon DynamoDB Accelerator
 
 ### Cloud Architecture
-* ***High Availability*** Ability for service to remain available y ensuring no single point of failure. Ensure certain level of performance.
+* ***High Availability*** Ability for service to remain available by ensuring no single point of failure. Ensure certain level of performance.
 1. **Elastic Load Balancer:** automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. <br>
 Monitors the health of its registered targets, and routes traffic only to the healthy targets.<br> 
 Elastic Load Balancing scales your load balancer capacity automatically in response to changes in incoming traffic.
+
+* ***High Scalability*** Increase capacity based on the increasing demand of traffic, memory and computing power.<br>
+- *vertical scaling* - upgrade to bigger server
+- *horizontal scaling* - add more servers of the same size
+
+* ***High Elasticity*** Ability to automatically increase or decrease capacity based on the current demand or traffic, memory and computing power
+- *scaling out* - add more servers of the same size
+- *scaling in* - Removing underutilized servers of the same size
+1. **Auto Scaling Groups:** AWS feature that automatically adds and removes servers based on scaling rules you define on metrics
+
+* ***Highly Fault Tolerant:***  Ability for service to ensure there is no point of failure. Prevent the chance of failure
+- *fail-overs* when you plan to shift traffic to redundant system incase primary system fails.
+1. **RDS Multi-AZ**  run duplicate standby database in another AZ incase primary database fails.
+
+* ***High Durability*** Recover from disaster and prevent loss of data.
+1. **CloudEndure Disaster Recovery** replicates machines into low-cost staging area in target AWS account and preffered region for fast recovery.
+
+* ***Business Continuity Plan*** documet outlining how business will operate during unplanned service distruption.
+- *Recovery Point Objective* maximum amount of data loss
+- *Recovery Time Objective* maximum amount of downtime business can tolerate witout financial loss
+
+* ***Disaster Recovery Options***
+1. **Backup & Restore**
+- Lower Priority use cases.
+- Provision all AWS Resources
+- Restores backup after event
+- cost $
+2. **Pilot Light**
+- Data live
+- Services idle
+- Provision some AWS resources and scale after event
+- Cost $$
+3. **Warm Standby**
+- Always running but smaller
+- Business critical
+- Scale AWS resources after event
+- Cost $$$
+4. **Multi-site active/active**
+- Zero downtime
+- Near zero data loss
+- Mission critical servers
+- Cost $$$$
+
+
+
+
+
 
 
 
