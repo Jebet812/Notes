@@ -158,34 +158,26 @@ Elastic Load Balancing scales your load balancer capacity automatically in respo
 - *Recovery Time Objective* maximum amount of downtime business can tolerate witout financial loss
 
 * ***Disaster Recovery Options***
-1. **Backup & Restore**
+1. **Backup & Restore** *(RTO/RPO):hours*
 - Lower Priority use cases.
 - Provision all AWS Resources
 - Restores backup after event
 - cost $
-2. **Pilot Light**
+2. **Pilot Light** *(RTO/RPO):10min*
 - Data live
 - Services idle
 - Provision some AWS resources and scale after event
 - Cost $$
-3. **Warm Standby**
+3. **Warm Standby** *(RTO/RPO):minutes*
 - Always running but smaller
 - Business critical
 - Scale AWS resources after event
 - Cost $$$
-4. **Multi-site active/active**
+4. **Multi-site active/active** *(RTO/RPO):realtime*
 - Zero downtime
 - Near zero data loss
 - Mission critical servers
 - Cost $$$$
-
-
-
-
-
-
-
-
 
 
 </p>
@@ -245,6 +237,55 @@ To get resources, get whitepapers, documentation and learn more about AWS compli
 5. Protect data in transit and at rest.
 6. Keep people away from data.
 7. Prepare for security events.
+
+</p>
+</details>
+
+<details><summary>Pricing, Billing & Support</summary>
+<p>
+
+## Pricing, Billing & Support
+
+### Support Plans
+1. **Basic Support**
+2. **Developer Support**
+3. **Business Support**
+4. **Enterprise Support**
+
+## Billing and Pricing
+1. **Consolidated Billing** feature of *AWS Organizations* that allows to pay for multiple accounts with one bill<br>
+No additional cost<br>
+Use *Cost Explorer* to visualize usage for consolidated billing<br>
+Allows for *Volume Discounts* the more you use the more you save.
+2. **AWS Cost Explorer**  
+
+
+
+
+
+
+
+</p>
+</details>
+
+<details><summary>Monitoring and Analytics</summary>
+<p>
+
+## Monitoring and Analytics
+1. **AWS Trusted Advisor** recommendation tool that automatically and actively monitors AWS account and provide actional recommendation.<br>
+7 Trusted Advisor Checks (*MFA root account, security groups, s3 bucket permissions, RDS Public Snapshots, IAM use, service limits*) for basic and developer ad all for business and enterprise.
+
+*Categories of Trust Advisor*
+* Cost Optimization
+* Performance
+* Security
+* Fault Tolerance
+* Service Limits
+2. **AWS Cloudwatch:**
+3. **AWS Cloudtrail:**
+
+</p>
+</details>
 
 
 
