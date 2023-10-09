@@ -106,7 +106,6 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 1. Nitro System
 2. Bare Metal inatances
 
-
 ### Storage
 
 #### Block Storage
@@ -120,7 +119,7 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 
 ### Databases
 1. **Amazon Relational Database Service(RDS):** service that enables managing your databases in the cloud, not a database itself. It supports 6 SQL database types Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server.
-2. **Amazon Dynamo DB:**  Fully managed, highly scalable NoSQL database offering provided by AWS. Is *serverless* For cases requiring high performance and scaling.
+2. **Amazon Dynamo DB:**  a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, automated multi-Region replication, in-memory caching, and data import and export tools. Is *serverless* For cases requiring high performance and scaling.
 3. **Amazon Aurora:** Enterprise-class relational database. Compatible with MySQL and PostgreSQL. 5X faster than starndard MySQL and 3X than starndard PostgreSQL.
 4. **Amazon RedShift:** Data warehousing service you can use for big data and analytics.
 **Additional Database Services**
@@ -130,6 +129,12 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 * Amazon Managed Blockchain
 * Amazon ElasticCache
 * Amazon DynamoDB Accelerator
+
+### Cloud Architecture
+* ***High Availability*** Ability for service to remain available y ensuring no single point of failure. Ensure certain level of performance.
+1. **Elastic Load Balancer:** automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. <br>
+Monitors the health of its registered targets, and routes traffic only to the healthy targets.<br> 
+Elastic Load Balancing scales your load balancer capacity automatically in response to changes in incoming traffic.
 
 
 
