@@ -119,6 +119,19 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 
 
 ### Databases
+1. **Amazon Relational Database Service(RDS):** service that enables managing your databases in the cloud, not a database itself. It supports 6 SQL database types Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server.
+2. **Amazon Dynamo DB:**  Fully managed, highly scalable NoSQL database offering provided by AWS. Is *serverless* For cases requiring high performance and scaling.
+3. **Amazon Aurora:** Enterprise-class relational database. Compatible with MySQL and PostgreSQL. 5X faster than starndard MySQL and 3X than starndard PostgreSQL.
+4. **Amazon RedShift:** Data warehousing service you can use for big data and analytics.
+**Additional Database Services**
+* Amazon DocumentDB (with Mongo DB compatibility)
+* Amazon Neptune
+* Amazon Quantum Ledger Database
+* Amazon Managed Blockchain
+* Amazon ElasticCache
+* Amazon DynamoDB Accelerator
+
+
 
 
 </p>
