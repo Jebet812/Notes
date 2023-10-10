@@ -225,9 +225,9 @@ To get resources, get whitepapers, documentation and learn more about AWS compli
 1. **AWS Key Management Service(KMS):** enables creation and management of encryption keys. Intergrates with *AWS Cloudtrail* to provide logs to help meet regulation and compliance.
 
 ### Additional Security Services
-1. **Amazon Inspector:**
-2. **Amazon GuardDuty:**
-3. **AWS WAF:**
+1. **Amazon Inspector:** automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure.
+2. **Amazon GuardDuty:**threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation.
+3. **AWS WAF:**helps you protect against common web exploits and bots that can affect availability, compromise security, or consume excessive resources. Uses *web Access Control List(ACL)* to lock or allow traffic.
 
 ### Security Design Principles
 1. Implement a strong identity foundation.
