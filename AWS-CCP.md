@@ -86,12 +86,26 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 *Servers* are the physical compute hardware running in a data center.<br/> 
 *Instances* are not considered serverless because they exist on a server in a datacentre.<br/> 
 
-***Accesing EC2 Instance***
+* **Accesing EC2 Instance**
 1. AWS Management Console
 2. Secure Shell (SSH)
 3. EC2 Instance Connect (EIC)
 4. AWS Systems Manager
 
+* **Amazon EC2 Instance Families**
+1. *General purpose*
+2. *Compute Optimized*
+3. *Memory Optimized*
+4. *Accelerated Computing instances*
+5. *Storage Optimized*
+6. *Storage Optimized*
+
+* **Amazon EC2 Pricing**
+1. *On Demand*
+2. *Savings Plan*
+3. *Reserved Instances*
+4. *Spot Instances*
+5. *Dedicated Host*
 
 
 #### Amazon Lightsail
