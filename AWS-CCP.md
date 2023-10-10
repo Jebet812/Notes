@@ -25,9 +25,9 @@
 
 ***Cloud Computing Models***
 
-* **Infrastructure as a Service (IaaS):** Contains asic building locks for cloud IT that can be rented *e.g.* Amazon EC2.
-* **Platfrorm as a Service(PaaS):** Enables you develop software using web-based tools without worrying about underlying infrastructure *e.g.* AWS Cloud9.
-* **Software as a Service(SaaS):** Provides you with completed product managed and run by a service provider *e.g.* Amazon SageMaker.
+* **Infrastructure as a Service (IaaS):** Contains basic building locks for cloud IT that can be rented *e.g.* Amazon EC2, EC2 Baremetal, Amazon ECS
+* **Platfrorm as a Service(PaaS):** Enables you develop software using web-based tools without worrying about underlying infrastructure *e.g.* AWS Cloud9, Elastic Beanstalk
+* **Software as a Service(SaaS):** Provides you with completed product managed and run by a service provider *e.g.* Amazon SageMaker, AWS WordDocs. AWS Fargate, AWS Amplify
 
 ***Cloud Computing Deployment Models***
 
@@ -97,10 +97,10 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 #### AWS Lambda
 
 #### Containers
-1. Elastic Container Service (ECS)
-2. Elastic Container Registry (ECR)
-3. ECS Fargate
-4. Elastic Kubernetes Servise (EKS)
+1. **Elastic Container Service (ECS):** fully managed container orchestration service that simplifies your deployment, management, and scaling of containerized applications.
+2. **Elastic Container Registry (ECR):** a fully managed container registry offering high-performance hosting, so you can reliably deploy application images and artifacts anywhere
+3. **ECS Fargate:** serverless compute engine for containers. Comaptible with EKS and ECS
+4. **Elastic Kubernetes Servise (EKS):** a managed Kubernetes service that makes it easy for you to run Kubernetes on AWS and on-premises
 
 #### High Performance Computing Services
 1. Nitro System
