@@ -81,16 +81,18 @@ There are more edge locations than regions and availability zones.
 
 ### Compute 
 
-#### Elastic Compute Cloud (EC2)
+1. **Elastic Compute Cloud (EC2)**
 Allows you one to reny and manage virtual servers in the cloud. It provides secure, resizable compute capacity in the cloud as EC2 instances.<br/> 
 *Servers* are the physical compute hardware running in a data center.<br/> 
 *Instances* are not considered serverless because they exist on a server in a datacentre.<br/> 
 
-***Accesing EC2 Instance**
-1. AWS Management Console:
-2. Secure Shell (SSH):
-3. EC2 Instance Connect (EIC):
+***Accesing EC2 Instance***
+1. AWS Management Console
+2. Secure Shell (SSH)
+3. EC2 Instance Connect (EIC)
 4. AWS Systems Manager
+
+
 
 #### Amazon Lightsail
 
