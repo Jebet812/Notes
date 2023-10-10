@@ -276,7 +276,7 @@ Allows for *Volume Discounts* the more you use the more you save.
 2. **AWS Free-Tier:** allows users to use AWS at no cost 
 3. **AWS Credits** equivalent of USD on AWS platform
 4. **AWS Cost Explorer**  
-5. 
+5. **AWS 
 
 
 
@@ -292,15 +292,6 @@ Allows for *Volume Discounts* the more you use the more you save.
 - *Technology Partner* build technology on top of AWS as a service offering.<br>
 Partner belongs to specific tier: *Select, Advanced or Premier.*
 The tiers have different knowledge requirements.
-
-
-
-
-
-
-
-
-
 
 </p>
 </details>
