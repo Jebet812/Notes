@@ -269,20 +269,31 @@ To get resources, get whitepapers, documentation and learn more about AWS compli
 4. **Enterprise Support**
 
 ## Billing and Pricing
-1. **Consolidated Billing** feature of *AWS Organizations* that allows to pay for multiple accounts with one bill<br>
+1. **Consolidated Billing:** feature of *AWS Organizations* that allows to pay for multiple accounts with one bill<br>
 No additional cost<br>
 Use *Cost Explorer* to visualize usage for consolidated billing<br>
 Allows for *Volume Discounts* the more you use the more you save.
-2. **AWS Cost Explorer**  
+2. **AWS Free-Tier:** allows users to use AWS at no cost 
+3. **AWS Credits** equivalent of USD on AWS platform
+4. **AWS Cost Explorer**  
+5. 
+
 
 
 ### Additional Definitions
 1. **Service Health Dashboard:** shows the general status of AWS services
 2. **AWS Personal Health Dashboard:** provides alerts and guidance for AWS events that might affect your environment. Available for alll customers. You can use alerts to get notified.
 3. **AWS Abuse** *AWS Trust & Safety* is ateam that deals specifically with abuses occuring in AWS platform for the following issues spam, port-scanning, Denial-of-Service (DoS) attack, intrusion attempts, hosting prohibited content, distributed content.
-1. **Service Level Agreements(SLA):** formal commitment about the expected level of service between a customer and provider. If needs not met customer eligible for compensation in terms of *Financial or Service Credits*
-* *Service Level Indicator(SLI)* measure/measurement that indicates what measure of performance is getting at any given time *e.g* uptime, performance, availability, throughput, latency, error rate, durability and correctness.
-* *Service Level Objective(SLO):* objective the provider has agreed to meet. Represented as a specific percentage over a period of time.
+4. **Service Level Agreements(SLA):** formal commitment about the expected level of service between a customer and provider. If needs not met customer eligible for compensation in terms of *Financial or Service Credits*
+* *Service Level Indicator(SLI)* measure/measurement that indicates what measure of performance is getting at any given time *e.g* uptime, performance, availability, throughput, latency, error rate, durability and correctness
+* *Service Level Objective(SLO):* objective the provider has agreed to meet. Represented as a specific percentage over a period of time
+5. **AWS Partner Network:** global partner program for AWS. Joining APN will open org for business oppotunities and allows exclusive training and marketing events. You can be:
+- *Consulting Partner* help companies utilize AWS.
+- *Technology Partner* build technology on top of AWS as a service offering.<br>
+Partner belongs to specific tier: *Select, Advanced or Premier.*
+The tiers have different knowledge requirements.
+
+
 
 
 
