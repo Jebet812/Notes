@@ -107,10 +107,10 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 4. *Spot Instances*
 5. *Dedicated Host*
 
+2. **Amazon Lightsail:** managed virtual server service. Friendly version of EC2.
 
-#### Amazon Lightsail
-
-#### AWS Lambda
+#### Serverless
+1. **AWS Lambda:** a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.
 
 #### Containers
 1. **Elastic Container Service (ECS):** fully managed container orchestration service that simplifies your deployment, management, and scaling of containerized applications.
@@ -274,6 +274,16 @@ No additional cost<br>
 Use *Cost Explorer* to visualize usage for consolidated billing<br>
 Allows for *Volume Discounts* the more you use the more you save.
 2. **AWS Cost Explorer**  
+
+
+### Additional Definitions
+1. **Service Health Dashboard:** shows the general status of AWS services
+2. **AWS Personal Health Dashboard:** provides alerts and guidance for AWS events that might affect your environment. Available for alll customers. You can use alerts to get notified.
+3. **AWS Abuse** *AWS Trust & Safety* is ateam that deals specifically with abuses occuring in AWS platform for the following issues spam, port-scanning, Denial-of-Service (DoS) attack, intrusion attempts, hosting prohibited content, distributed content.
+1. **Service Level Agreements(SLA):** formal commitment about the expected level of service between a customer and provider. If needs not met customer eligible for compensation in terms of *Financial or Service Credits*
+* *Service Level Indicator(SLI)* measure/measurement that indicates what measure of performance is getting at any given time *e.g* uptime, performance, availability, throughput, latency, error rate, durability and correctness.
+* *Service Level Objective(SLO):* objective the provider has agreed to meet. Represented as a specific percentage over a period of time.
+
 
 
 
