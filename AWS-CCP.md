@@ -275,8 +275,16 @@ Use *Cost Explorer* to visualize usage for consolidated billing<br>
 Allows for *Volume Discounts* the more you use the more you save.
 2. **AWS Free-Tier:** allows users to use AWS at no cost 
 3. **AWS Credits** equivalent of USD on AWS platform
-4. **AWS Cost Explorer**  
-5. **AWS 
+4. **AWS Cost Explorer**  lets you visualize and manage your AWS costs and usage over time.
+5. **AWS Budgets** gives ability to set up alerts if you exceed or are approaching your defines budget. Can be used for forecast costs but is limited compared to Cost Explorer or doing analysis with AWS Cost and Usage Reports along with BI
+6. **AWS Budget Reports** used alongside AWS Budget to create and send daily, weekly or monthly reports to monitor performance of AWS Budget emailed to user.
+7. **AWS Cost and Usage Report:** generate detailed spreadsheet enabling one understand and analyse AWS costs.
+- Places the reports into S3
+- Use Athena to turn the report to queriable database.
+- Use QuickSight to visualize billing and data as graphs.
+8. **Cost Allocation Tags:** optional metadata that can be attached to AWS resource so when you generate out a Cost and Usage Report you can use the data to better analyze your data. Two types of tags user-defined and AWS generated.
+9. **Billing Alarms:** create alarms in Cloudwatch to monitor speed.
+
 
 
 
