@@ -168,7 +168,29 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 18. **AWS DeepRacer:** toy race car that can be powered with ML to perform automomous driving.
 19. **Amazon Elastic Inference:** allows you to attach low-cost GPU-powered acceleration to Amazon EC2 and SageMaker instances or Amazon ECS tasks, to reduce the cost of running deep learning inference by up to 75%.
 20. **Amazon Fraud Detector:** fully managed fraud detection service.
-21. **Amazon Kendra:** enterprise ML search engine service. It uses natural language to suggest answers to question instead of jsut simple keyword matching. 
+21. **Amazon Kendra:** enterprise ML search engine service. It uses natural language to suggest answers to question instead of jsut simple keyword matching.
+
+### Big Data and Analytics Services
+1. **Amazon Athena:** serverless interactive query service. Take CSV and JSON files in S3  bucket and load them to temporary SQL tables which you can run SQL queries,
+2. **Amazon CloudSearch:** fully managed search service. Add search to service.
+3. **Amazon Elasticsearch Service (ES):** managed Elasticsearch cluster. It is an open source full-text search engine. Robust than CloudSearch but requires more server and operational maintenance.
+4. **Amazon Elastic MapReduce (EMR):** used for data analysis and processing. Can create reports like Redshift but suited when transforming unstructured data to structured data on the fly.
+5. **Kinesis Data Streams:** real time data streaming data service. For real time analytics, click streams and ingesting data from IoT devices.
+6. **Kinesis Firehose:** serverless and simpler version of Data Streams. 
+7. **Amazon Kinesis Data Analytics:** allows you run queries against dta that is flowing through real time stream so as to create reports and analysis on emerging data.
+8. **Amazon Kinesis Video Streams:** allows to analyze or apply processing on real-time streaming video.
+9. **Managed Kafka Service (MSK):** fully managed Kafka Service.
+10. **Redshift:** petabyte size data warehouse. Quickly generate analytics or reports from large amount of data.
+11. **Amazon Quicksight:** business intelligence (BI) dashboard. Requires little to know programming knowledge and connect to different databases.
+12. **AWS Data Pipeline:** automates the movement of data. Move data between compute and storage services.
+13. **AWS Glue:** is an Extract, Transform, Load Service. move data from a location that need transformation before getting to the final destination. Like DMS but more robust.
+14. **AWS Lake Formation:** centralized, curated and secured repository that stores data until neede.
+15. **AWS Data Exchange:** catalogue for third party data sets. You can download for free subscribe or purcase datasets.
+
+
+
+
+
 
 
 
