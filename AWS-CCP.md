@@ -130,7 +130,7 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 
 
 #### Object Storage 
-##### Amazon Simple Service Storage (S3)
+1. **Amazon Simple Service Storage (S3):**
 
 
 ### Databases
@@ -146,6 +146,35 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 * Amazon Managed Blockchain
 * Amazon ElasticCache
 * Amazon DynamoDB Accelerator
+
+### Machine Learning and AI Services
+1. **Amazon Sagemaker:** fully managed service to build, train and deploy machine learning models at scale. *Frameworks include* Apache MXNet on AWS, TensorFlow on AWS, pYTorch on AWS.
+2. **Amazon SageMaker Ground Truth:** is a data labelling service that will have humans lael a dataset that will be used to train machine learning models.
+3. **Amazon Augmented AI:** allows you to conduct a human review of machine learning (ML) systems to guarantee precision.
+4. **Amazon CodeGuru:** machine learning code analysis service. Performs code reviews and will suggest improvements to be made.
+5. **Amazon Lex:** conversion interface service that one can build voice and text chatbots.
+6. **Amazon Personalize:** real time recommendation service. Technology used in Amazon to shop.
+7. **Amazon Polly:** text-speech service. Upload text and audio file spoken by synthesized voice is generated.
+8. **Amazon Rekognition:** image and voice recognition service. Analyze images and videos to detect and label obbjects.
+9. **Amazon Transcribe:** speech to text service.
+10. **Amazon Textract:** automatically extracts text, handwriting, and data from scanned documents
+11. **Amazon Translate:** neural machine learning translation service.
+12. **Amazon Comprehend:** it is a Natural Language Processor (NLP) service used to uncover valuable insights and connections in text.
+13. **Amazon Forecast:** time-series forecasting service based on machine learning (ML) and built for business metrics analysis.
+14. **Amazon Deep Learning AMIs:** provides ML practitioners and researchers with a curated and secure set of frameworks, dependencies, and tools to accelerate deep learning on Amazon EC2. 
+15. **Amazon Deep Learning Container:** docker images that are preinstalled and tested with the latest versions of popular deep learning frameworks
+16. **AWS DeepComposer:** ML enables musical keyboard.
+17. **AWS DeepLens:** video camera that uses deep-learning. 
+18. **AWS DeepRacer:** toy race car that can be powered with ML to perform automomous driving.
+19. **Amazon Elastic Inference:** allows you to attach low-cost GPU-powered acceleration to Amazon EC2 and SageMaker instances or Amazon ECS tasks, to reduce the cost of running deep learning inference by up to 75%.
+20. **Amazon Fraud Detector:** fully managed fraud detection service.
+21. **Amazon Kendra:** enterprise ML search engine service. It uses natural language to suggest answers to question instead of jsut simple keyword matching. 
+
+
+
+
+
+
 
 ### Cloud Architecture
 * ***High Availability*** Ability for service to remain available by ensuring no single point of failure. Ensure certain level of performance.
@@ -275,7 +304,7 @@ Use *Cost Explorer* to visualize usage for consolidated billing<br>
 Allows for *Volume Discounts* the more you use the more you save.
 2. **AWS Free-Tier:** allows users to use AWS at no cost 
 3. **AWS Credits** equivalent of USD on AWS platform
-4. **AWS Cost Explorer**  lets you visualize and manage your AWS costs and usage over time.
+4. **AWS Cost Explorer**  lets you visualize and manage your AWS costs and usage over time. Offers historical records but also creates forecasts and savings recommendations
 5. **AWS Budgets** gives ability to set up alerts if you exceed or are approaching your defines budget. Can be used for forecast costs but is limited compared to Cost Explorer or doing analysis with AWS Cost and Usage Reports along with BI
 6. **AWS Budget Reports** used alongside AWS Budget to create and send daily, weekly or monthly reports to monitor performance of AWS Budget emailed to user.
 7. **AWS Cost and Usage Report:** generate detailed spreadsheet enabling one understand and analyse AWS costs.
@@ -284,9 +313,6 @@ Allows for *Volume Discounts* the more you use the more you save.
 - Use QuickSight to visualize billing and data as graphs.
 8. **Cost Allocation Tags:** optional metadata that can be attached to AWS resource so when you generate out a Cost and Usage Report you can use the data to better analyze your data. Two types of tags user-defined and AWS generated.
 9. **Billing Alarms:** create alarms in Cloudwatch to monitor speed.
-
-
-
 
 ### Additional Definitions
 1. **Service Health Dashboard:** shows the general status of AWS services
@@ -300,6 +326,12 @@ Allows for *Volume Discounts* the more you use the more you save.
 - *Technology Partner* build technology on top of AWS as a service offering.<br>
 Partner belongs to specific tier: *Select, Advanced or Premier.*
 The tiers have different knowledge requirements.
+6. **AWS Pricing APIs** There are two versions of API thata you can use to progammatically access pricing info
+- *Query API* pricing API via JSON
+- *Batch API* price list API via HTML
+
+* You can subscribe to *Amazon Simple Notification Service(SNS)* notifications to get alerts when prices for service change.
+
 
 </p>
 </details>
