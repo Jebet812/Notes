@@ -124,8 +124,10 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 
 ### Networking Services.
 1. **Amazon Virtual Private Cloud(VPC):** lets one provision logically isolated section of AWS cloud where you can launch AWS resources in a virtual network that you define.
-- **Subnets:** logical partition of an IP network into smaller network segments that allows one group resources together. Can be *private subnet* (access to internet) or *public subnet* (no access to internet).
+- **Subnets:** logical partition of an IP network into smaller network segments that allows one group resources together. Can be *private subnet* (access to internet) or *public subnet* (no access to internet).<br>
 ***security in a VPC***
+- **Network Access Control Lists(NACLs:)** acts as virtual firewall at the sunet level. *Allow or Deny rules.* They offer *stateless packet filtering* meaning they do not remember previous decisions made hence has to check packets that cross the subnet border each way (inbound and outbound).
+- **Security Groups:** acts as virtual firewall at the instance level. *Create only Allow rules. They offer *stateful packet filtering* meaning they remember previous decisiond made for incoming packets. It only checks inbound traffic.<br>
 2. **AWS Direct Connect:** service that enables a dedicated provate connection between the data centre and VPC (very fast connection)
 3. **AWS Virtual Private Network:** a secure connection etween on-premise, remote offices, mobile employees.
 4. **Private Links (VPC Interface Endpoints):** provides private connectivity between virtual private clouds (VPCs) and your on-premises networks without exposing your traffic to the public internet.
