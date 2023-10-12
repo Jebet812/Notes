@@ -122,6 +122,16 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 1. Nitro System
 2. Bare Metal inatances
 
+### Networking Services.
+1. **Amazon Virtual Private Cloud(VPC):** lets one provision logically isolated section of AWS cloud where you can launch AWS resources in a virtual network that you define.
+- **Subnets:** logical partition of an IP network into smaller network segments that allows one group resources together. Can be *private subnet* (access to internet) or *public subnet* (no access to internet).
+***security in a VPC***
+2. **AWS Direct Connect:** service that enables a dedicated provate connection between the data centre and VPC (very fast connection)
+3. **AWS Virtual Private Network:** a secure connection etween on-premise, remote offices, mobile employees.
+4. **Private Links (VPC Interface Endpoints):** provides private connectivity between virtual private clouds (VPCs) and your on-premises networks without exposing your traffic to the public internet.
+
+
+
 ### Storage
 
 #### Block Storage
@@ -224,7 +234,7 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 3. **AWS Device Farm:** application testing device that lets one improve quality of web and mobile apps by testing across a range of desktop browsers and real mobile devices; without having to provision and manage any testing infrastructure.
 
 ### Internet of Things (IoT)
-1. **AWS IoT Core:**lets you connect billions of IoT devices and route trillions of messages to AWS services without managing infrastr
+1. **AWS IoT Core:**lets you connect billions of IoT devices and route trillions of messages to AWS services without managing infrastructure.
 2. **AWS IoT Greengrass:** software that extends cloud capabilities to local devices. Devices can then collect and analyze data closer to the source of information, react autonomously to local events and communicate securely with each other on local networks.
 
 ### Cloud Architecture
@@ -286,9 +296,9 @@ Elastic Load Balancing scales your load balancer capacity automatically in respo
 ## Security
 
 ### Shared Responsibility Model
-#### AWS Responsiilty (Security Of The Cloud)
+1. **AWS Responsiilty (Security Of The Cloud)**
 
-#### Customer's Responsibility (Security In The Cloud)
+2. **Customer's Responsibility (Security In The Cloud)**
 
 ### User Permsissions and Acces
 1. **AWS Root User**
@@ -350,7 +360,7 @@ To get resources, get whitepapers, documentation and learn more about AWS compli
 4. **Enterprise Support**
 
 
-## Billing and Pricing
+### Billing and Pricing
 1. **Consolidated Billing:** feature of *AWS Organizations* that allows to pay for multiple accounts with one bill<br>
 No additional cost<br>
 Use *Cost Explorer* to visualize usage for consolidated billing<br>
