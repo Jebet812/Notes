@@ -218,8 +218,14 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 2. **Amazon WorkSpaces:** secure cloud desktop service. You can provision Windows, Amazon Linux or Ubuntu Linux.
 3. **Amazon WorkSpaces Web:** fully managed Linux based service to facilitate secure browser access to internal websites and SaaS applications fro m existing web browswes.
 
-### 
+### Frontend Web and Mobile
+1. **AWS Amplify:** solution that lets front end web and mobile developers build, ship and host full-stack applications on AWS.
+2. **AWS AppSync:** facilitates development of applications faster with serverless GraphQL and Pub/Sub APIs.
+3. **AWS Device Farm:** application testing device that lets one improve quality of web and mobile apps by testing across a range of desktop browsers and real mobile devices; without having to provision and manage any testing infrastructure.
 
+### Internet of Things (IoT)
+1. **AWS IoT Core:**lets you connect billions of IoT devices and route trillions of messages to AWS services without managing infrastr
+2. **AWS IoT Greengrass:** software that extends cloud capabilities to local devices. Devices can then collect and analyze data closer to the source of information, react autonomously to local events and communicate securely with each other on local networks.
 
 ### Cloud Architecture
 * ***High Availability*** Ability for service to remain available by ensuring no single point of failure. Ensure certain level of performance.
