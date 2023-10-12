@@ -213,6 +213,14 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 10. **AWS CodeStar:** quickly develop, build, and deploy applications on AWS
 11. **AWS X-Ray:** allows developers to analyze and debug distributed applications. It provides a detailed view of the applications and their underlying components to help developers identify and troubleshoot issues in real-time. 
 
+### End User Computing
+1. **Amazon AppStream 2.0:** fully managed application streaming service that provides users instant access to their desktop applications from anywhere. 
+2. **Amazon WorkSpaces:** secure cloud desktop service. You can provision Windows, Amazon Linux or Ubuntu Linux.
+3. **Amazon WorkSpaces Web:** fully managed Linux based service to facilitate secure browser access to internal websites and SaaS applications fro m existing web browswes.
+
+### 
+
+
 ### Cloud Architecture
 * ***High Availability*** Ability for service to remain available by ensuring no single point of failure. Ensure certain level of performance.
 1. **Elastic Load Balancer:** automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. <br>
