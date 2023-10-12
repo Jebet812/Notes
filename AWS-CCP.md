@@ -59,7 +59,8 @@ When choosing a region for services, data and application consider these factors
      - They are fault tolerant.
      - They allow for high availability.
 
-* **Edge Locations:** Locations used to store cached copies of content close to customers for faster delivery. This is made possible through *Amazon CloudFront* (is a content delivery network to deliver data, video, applications and APIs with low latency and high transfer speeds </br>
+* **Edge Locations:** Locations used to store cached copies of content close to customers for faster delivery. This is made possible through **Amazon CloudFront** (is a content delivery network to deliver data, video, applications and APIs with low latency and high transfer speeds<br>
+CloudFront also integrates with AWS WAF, a web application firewall that helps protect web applications from common web exploits, and AWS Shield, a managed DDoS protection service that safeguards web applications running on AWS</br>
 It *reduces latency* (time between user request and resulting response) and *speeds up delivery of application.*</br>
 There are more edge locations than regions and availability zones.
 
@@ -85,6 +86,7 @@ There are more edge locations than regions and availability zones.
 Allows you one to reny and manage virtual servers in the cloud. It provides secure, resizable compute capacity in the cloud as EC2 instances.<br/> 
 *Servers* are the physical compute hardware running in a data center.<br/> 
 *Instances* are not considered serverless because they exist on a server in a datacentre.<br/> 
+- **Amazon Machine Image:** predefined configuration for a virtual machine. Includes the number of CPUs, amount of memory RAM, amount of network bandwidth, the OS.
 
 * **Accesing EC2 Instance**
 1. AWS Management Console
@@ -121,6 +123,8 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 #### High Performance Computing Services
 1. Nitro System
 2. Bare Metal inatances
+
+- **AWS Elastic Beanstalk:** makes it even easier for developers to quickly deploy and manage applications in the AWS Cloud. Developers simply upload their application, and Elastic Beanstalk automatically handles the deployment details of capacity provisioning, load balancing, auto-scaling, and application health monitoring.
 
 ### Networking Services.
 1. **Amazon Virtual Private Cloud(VPC):** lets one provision logically isolated section of AWS cloud where you can launch AWS resources in a virtual network that you define.
@@ -159,8 +163,8 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 - *S3 Glacier* for long-term archive and digital preservation. Retrieve data minute to hours
 - *S3 glacier Deep Archive* lowest storage class. Retrieve data in hours.
 
-
-#### Other Definitions***
+* **Amazon S3 Transfer Acceleration:** enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket. Transfer Acceleration takes advantage of Amazon CloudFront’s globally distributed edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path.
+#### ***Other Definitions***
 1. **AWS Storage Gateway:** allows you to build a data warehouse on the cloud. Hybrid cloud storage services that provide on-premises access to virtually unlimited cloud storage.
 2. **AWS Snow Family:** storage and compute devices to move data in and out of cloud
 - *AWS Snowcone:* 8TB storage in HDD and 14TB storage in SSD
@@ -444,6 +448,7 @@ The tiers have different knowledge requirements.
 2. **AWS Cloudwatch:**
 3. **AWS Cloudtrail:**
 4.  **AWS Config:** used to check if resources are configured the way you'd want them to be.
+It enables you to assess, audit, and evaluate the configurations of your AWS resources. Config continuously monitors and records your AWS resource configurations and allows you to automate the evaluation of recorded configurations against desired configurations. With Config, you can review changes in configurations and relationships between AWS resources, dive into detailed resource configuration histories, and determine your overall compliance against the configurations specified in your internal guidelines. This enables you to simplify compliance auditing, security analysis, change management, and operational troubleshooting.
 
 </p>
 </details>
