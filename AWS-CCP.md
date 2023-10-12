@@ -147,6 +147,19 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 * Amazon ElasticCache
 * Amazon DynamoDB Accelerator
 
+
+### Application Intergration Services
+1. **Amazon Simple Notification Service(SNS):** is a pu-sub messaging system which sends notifications via various fomats. Push messages sent to subcribers.
+2. **Amazon Simple Queue Service (SQS):** is a queueing service Send events in a queue and other applications pull the queue for messages.
+3. **AWS Step Functions:** a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines.
+4. **Amazon EventBridge:**serverless event bus that makes it easy to connect applications together from your own application, third party services and AWS services.
+5. **Kinesis:** real time dtreaming data service
+6. **Amazon MQ:** managed message broker service that uses ApacheActiveMQ.
+7. **Managed Kafka Service(MSK):** fully managed Kafka Service.
+8. **API Gateway:** a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
+9. **AppSync:** fully managed GraphSQL service.
+
+
 ### Machine Learning and AI Services
 1. **Amazon Sagemaker:** fully managed service to build, train and deploy machine learning models at scale. *Frameworks include* Apache MXNet on AWS, TensorFlow on AWS, pYTorch on AWS.
 2. **Amazon SageMaker Ground Truth:** is a data labelling service that will have humans lael a dataset that will be used to train machine learning models.
@@ -155,7 +168,7 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 5. **Amazon Lex:** conversion interface service that one can build voice and text chatbots.
 6. **Amazon Personalize:** real time recommendation service. Technology used in Amazon to shop.
 7. **Amazon Polly:** text-speech service. Upload text and audio file spoken by synthesized voice is generated.
-8. **Amazon Rekognition:** image and voice recognition service. Analyze images and videos to detect and label obbjects.
+8. **Amazon Rekognition:** image and voice recognition service. Analyze images and videos to detect and label objects.
 9. **Amazon Transcribe:** speech to text service.
 10. **Amazon Textract:** automatically extracts text, handwriting, and data from scanned documents
 11. **Amazon Translate:** neural machine learning translation service.
@@ -181,22 +194,24 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 8. **Amazon Kinesis Video Streams:** allows to analyze or apply processing on real-time streaming video.
 9. **Managed Kafka Service (MSK):** fully managed Kafka Service.
 10. **Redshift:** petabyte size data warehouse. Quickly generate analytics or reports from large amount of data.
-11. **Amazon Quicksight:** business intelligence (BI) dashboard. Requires little to know programming knowledge and connect to different databases.
-12. **AWS Data Pipeline:** automates the movement of data. Move data between compute and storage services.
-13. **AWS Glue:** is an Extract, Transform, Load Service. move data from a location that need transformation before getting to the final destination. Like DMS but more robust.
-14. **AWS Lake Formation:** centralized, curated and secured repository that stores data until neede.
-15. **AWS Data Exchange:** catalogue for third party data sets. You can download for free subscribe or purcase datasets.
+11. **AWS Data Pipeline:** automates the movement of data. Move data between compute and storage services.
+12. **AWS Glue:** is an Extract, Transform, Load Service. move data from a location that need transformation before getting to the final destination. Like DMS but more robust.
+13. **AWS Lake Formation:** centralized, curated and secured repository that stores data until neede.
+14. **AWS Data Exchange:** catalogue for third party data sets. You can download for free subscribe or purcase datasets.
+15. **Amazon Quicksight:** business intelligence (BI) dashboard. Requires little to know programming knowledge and connect to different databases or AWS storage services. 
 
-
-
-
-
-
-
-
-
-
-
+### Developer Tools
+1. **AWS AppConfig:** used to automate process of deploying application configuration variable changes to your web app.
+2. **AWS CLI:** a tool you download, configure and control AWS services from the commandline and automate scripts.
+3. **AWS Cloud 9:** cloud IDE that lets you write, run and debug code.
+4. **AWS CloudShell:** makes it easy to securely manage, explore and interact with AWS resources from the browser.
+5. **AWS CodeArtifact:** repository service that makes it easy for organizations to securely store, publish and share software packages used in software development process.
+6. **AWS CodeBuild:** fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages.
+7. **AWS CodeCommit:** secure, highly scalable, fully managed source control service that hosts private Git repositories.
+8. **AWS CodeDeploy:** deployment service that automates application deployments to Amazon EC2 instances, on-premises instances, serverless Lambda functions, or Amazon ECS services.
+9. **AWS CodePipeline:** a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates.
+10. **AWS CodeStar:** quickly develop, build, and deploy applications on AWS
+11. **AWS X-Ray:** allows developers to analyze and debug distributed applications. It provides a detailed view of the applications and their underlying components to help developers identify and troubleshoot issues in real-time. 
 
 ### Cloud Architecture
 * ***High Availability*** Ability for service to remain available by ensuring no single point of failure. Ensure certain level of performance.
@@ -286,7 +301,7 @@ To get resources, get whitepapers, documentation and learn more about AWS compli
 1. **AWS Shield:** protects applications against DDoS attacks. Provides two levels;
 * *AWS Shield Starndard:* protects all customers from common, frequent attacks at no cost.
 * *AWS Shield Advance:* paid service that provides detailed attack diagnosis and ability to detect and mitigate sophisticated attacks. For higher levels of protection against attacks targeting your web applications running on Amazon EC2, Elastic Load Balancing (ELB), CloudFront, and Route-53 resources, you can subscribe to AWS Shield Advanced. 
-2. **AWS Config:**
+
 
 ### Encryption
 1. **AWS Key Management Service(KMS):** enables creation and management of encryption keys. Intergrates with *AWS Cloudtrail* to provide logs to help meet regulation and compliance.
@@ -314,10 +329,12 @@ To get resources, get whitepapers, documentation and learn more about AWS compli
 ## Pricing, Billing & Support
 
 ### Support Plans
+ AWS Support is a mix of tools and technology, people, and programs designed to proactively help you optimize performance, lower costs, and innovate faster. 
 1. **Basic Support**
 2. **Developer Support**
 3. **Business Support**
 4. **Enterprise Support**
+
 
 ## Billing and Pricing
 1. **Consolidated Billing:** feature of *AWS Organizations* that allows to pay for multiple accounts with one bill<br>
@@ -351,8 +368,11 @@ The tiers have different knowledge requirements.
 6. **AWS Pricing APIs** There are two versions of API thata you can use to progammatically access pricing info
 - *Query API* pricing API via JSON
 - *Batch API* price list API via HTML
-
 * You can subscribe to *Amazon Simple Notification Service(SNS)* notifications to get alerts when prices for service change.
+7. **AWS Activate for Startups:** helps startups bring their ideas to life.
+8. **AWS IQ:** customers to quickly find, engage, and pay AWS Certified third-party experts for on-demand project work. 
+9. **AWS Managed Service:** helps you adopt AWS at scale and operate more efficiently and securely.
+
 
 
 </p>
@@ -373,6 +393,7 @@ The tiers have different knowledge requirements.
 * Service Limits
 2. **AWS Cloudwatch:**
 3. **AWS Cloudtrail:**
+4.  **AWS Config:** used to check if resources are configured the way you'd want them to be.
 
 </p>
 </details>
