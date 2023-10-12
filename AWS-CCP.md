@@ -101,11 +101,11 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 6. *Storage Optimized*
 
 * **Amazon EC2 Pricing**
-1. *On Demand*
-2. *Savings Plan*
-3. *Reserved Instances*
-4. *Spot Instances*
-5. *Dedicated Host*
+- *On Demand* short term, irregular workloads that cannot be interrupted.
+- *Savings Plan* 
+- *Reserved Instances* steady-state, predictable usage. 1 yr to 3yr contract. Starndard 75% or 54% convertible
+- *Spot Instances* flexible start and end times that can be interrrupted
+- *Dedicated Host*physical servers capacity fully dedicated to use.
 
 2. **Amazon Lightsail:** managed virtual server service. Friendly version of EC2.
 
@@ -141,19 +141,32 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 
 
 
-
-
-
 ### Storage
 
 #### Block Storage
-
+1. **Amazon Elastic Blockstore(EBS):** service that provides block storage volume. Use *EBS Snapshot* to back up its data. It does *incremental* backups (backups data that changed since most recent snapshot). 
 #### File Storage 
 
 
 #### Object Storage 
-1. **Amazon Simple Service Storage (S3):**
+1. **Amazon Simple Service Storage (S3):** Object storage built to retrieve any amount of data from anywhere. Cost attributed to storage class andsize of gigabyte of objects stored.
 
+***S3 storage classes**
+-  *S3 Standard* for general-purpose storage of frequently accessed data 
+- *S3 Intelligent-Tiering* for data with unknown or changing access patterns. uses machine learning. Not accessed in 30 days moves to S3 IA
+- *S3 Standard-Infrequent Access (S3 Standard-IA)* infrequent accesed data. 3AZs and has retrieval fee. 
+- *S3 One Zone-Infrequent Access (S3 One Zone-IA)* for long-lived, but less frequently accessed data. Only one AZ. Has retieval fee.
+- *S3 Glacier* for long-term archive and digital preservation. Retrieve data minute to hours
+- *S3 glacier Deep Archive* lowest storage class. Retrieve data in hours.
+
+
+#### Other Definitions***
+1. **AWS Storage Gateway:** allows you to build a data warehouse on the cloud. Hybrid cloud storage services that provide on-premises access to virtually unlimited cloud storage.
+2. **AWS Snow Family:** storage and compute devices to move data in and out of cloud
+- *AWS Snowcone:* 8TB storage in HDD and 14TB storage in SSD
+- *AWS Snowball Edge* storage optimized 80TB and compute optimized 39.5TB
+- *AWS Snowmobile* 100PB storage
+3. **AWS Backup:**
 
 ### Databases
 1. **Amazon Relational Database Service(RDS):** service that enables managing your databases in the cloud, not a database itself. It supports 6 SQL database types Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server.
@@ -166,13 +179,13 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 * Amazon Neptune
 * Amazon Quantum Ledger Database
 * Amazon Managed Blockchain
-* Amazon ElasticCache
+* **Amazon ElasticCache:** add caching layer on top of database to help reduce readtimes of common requests. Comes in Redis and Memcache.
 * Amazon DynamoDB Accelerator
 
 
 ### Application Intergration Services
 1. **Amazon Simple Notification Service(SNS):** is a pu-sub messaging system which sends notifications via various fomats. Push messages sent to subcribers.
-2. **Amazon Simple Queue Service (SQS):** is a queueing service Send events in a queue and other applications pull the queue for messages.
+2. **Amazon Simple Queue Service (SQS):** is a queueing service send events in a queue and other applications pull the queue for messages. It offers a reliable, highly-scalable hosted queue for storing messages as they travel between applications or microservices. It moves data between distributed application components and helps you decouple these components
 3. **AWS Step Functions:** a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines.
 4. **Amazon EventBridge:**serverless event bus that makes it easy to connect applications together from your own application, third party services and AWS services.
 5. **Kinesis:** real time dtreaming data service
@@ -209,7 +222,7 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 1. **Amazon Athena:** serverless interactive query service. Take CSV and JSON files in S3  bucket and load them to temporary SQL tables which you can run SQL queries,
 2. **Amazon CloudSearch:** fully managed search service. Add search to service.
 3. **Amazon Elasticsearch Service (ES):** managed Elasticsearch cluster. It is an open source full-text search engine. Robust than CloudSearch but requires more server and operational maintenance.
-4. **Amazon Elastic MapReduce (EMR):** used for data analysis and processing. Can create reports like Redshift but suited when transforming unstructured data to structured data on the fly.
+4. **Amazon Elastic MapReduce (EMR):** used for data analysis and processing. Can create reports like Redshift but suited when transforming unstructured data to structured data on the fly. Helps you analyze and process vast amounts of data by distributing the computational work across a cluster of virtual servers running in the AWS Cloud. 
 5. **Kinesis Data Streams:** real time data streaming data service. For real time analytics, click streams and ingesting data from IoT devices.
 6. **Kinesis Firehose:** serverless and simpler version of Data Streams. 
 7. **Amazon Kinesis Data Analytics:** allows you run queries against dta that is flowing through real time stream so as to create reports and analysis on emerging data.
@@ -388,6 +401,7 @@ Allows for *Volume Discounts* the more you use the more you save.
 - Use QuickSight to visualize billing and data as graphs.
 8. **Cost Allocation Tags:** optional metadata that can be attached to AWS resource so when you generate out a Cost and Usage Report you can use the data to better analyze your data. Two types of tags user-defined and AWS generated.
 9. **Billing Alarms:** create alarms in Cloudwatch to monitor speed.
+10. **AWS Pricing Calculator:** predict the cost of moving resources from on-premise to the cloud.
 
 ### Additional Definitions
 1. **Service Health Dashboard:** shows the general status of AWS services
