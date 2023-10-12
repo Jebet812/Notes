@@ -128,9 +128,19 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 ***security in a VPC***
 - **Network Access Control Lists(NACLs:)** acts as virtual firewall at the sunet level. *Allow or Deny rules.* They offer *stateless packet filtering* meaning they do not remember previous decisions made hence has to check packets that cross the subnet border each way (inbound and outbound).
 - **Security Groups:** acts as virtual firewall at the instance level. *Create only Allow rules. They offer *stateful packet filtering* meaning they remember previous decisiond made for incoming packets. It only checks inbound traffic.<br>
-2. **AWS Direct Connect:** service that enables a dedicated provate connection between the data centre and VPC (very fast connection)
-3. **AWS Virtual Private Network:** a secure connection etween on-premise, remote offices, mobile employees.
-4. **Private Links (VPC Interface Endpoints):** provides private connectivity between virtual private clouds (VPCs) and your on-premises networks without exposing your traffic to the public internet.
+2. **Route Tables:** determines where network traffic from your subnets are directed. Contains set of rules that you configure to direct network traffic from subnet. Each suunet must be associated with a route table.
+3. **Internet Gateway:** enables access to internet.
+4. **AWS Direct Connect:** enables a dedicated prIvate connection between the data centre and VPC (very fast connection)
+5. **AWS Virtual Private Network:** a secure connection etween on-premise, remote offices, mobile employees.
+6. **Private Links (VPC Interface Endpoints):** provides private connectivity between virtual private clouds (VPCs) and your on-premises networks without exposing your traffic to the public internet.
+7. **Network Address Translation:** enables instances in private cloud to connect to internet or other AWS resources ut prevents public internet access from initiating the connection.
+8. **VPC Peering:** enables you privately route traffic between VPCs.
+9. **AWS CloudFront:** content delivery network (CDN) to customers around the world with low latency and high transfer speeds.
+10. **AWS Global Accelerator:** networking service that helps improve application availability, performance, and security using the AWS global network.
+11. **Amazon Route53:**  highly available and scalable Domain Name System (DNS) web service. Route 53 connects user requests to internet applications running on AWS or on-premises. You can register domain name on it too.
+
+
+
 
 
 
