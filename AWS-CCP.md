@@ -1,9 +1,11 @@
 # AWS Certified Cloud Practitioner 
 
-<details><summary>Cloud Computing</summary>
+<details><summary>Cloud Concepts</summary>
 <p>
 
-## Cloud Computing
+## Cloud Concepts
+
+### Cloud Computing
 
 **Cloud Computing:** On demand delivery of IT resources over the internet.
 
@@ -34,6 +36,57 @@
 * **Cloud-based deployment:** Migrate all existing applications to cloud or design and build new applications on cloud.
 * **On-Prem/Private cloud deployment:** Resources are deployed on prenises by using virtualization and resource management tools.
 * **Hybrid deployment:** Connects cloud based resources to on-prem infrastructure. Supported by AWS Direct Connect.
+
+### Well Architected Framework
+
+***Pillars**
+1. **Operational Excellence:** ability to support development and run workloads effectively, gain insight into their operations, and to continuously improve supporting processes and procedures to deliver business value.
+*design principles*
+- Perform operations as code.
+- Make frequent, small, reversable changes.
+- Refine operations procedures frequently
+- Anticipate failure.
+- Learn from all operational failures.
+2. **Security:**bility to protect data, systems, and assets to take advantage of cloud technologies to improve your security.
+*design principles*
+- Implement a strong identity foundation.
+- Maintain traceability.
+- Apply security at all layers.
+- Automate security best practices.
+- Protect data in transit and at rest.
+- Keep people away from data.
+- Prepare for security events.
+3. **Reliability:** ability of a workload to perform its intended function correctly and consistently when it’s expected to. This includes the ability to operate and test the workload through its total lifecycle. 
+*design principles*
+- Automatically recover from failure.
+- Test recovery procedures.
+- Scale horizontally to increase aggregate workload availability.
+- Stop guessing capacity.
+- Manage change in automation.
+4. **Performance efficiency:** ability to use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve.
+*design principles*
+- Democratize advanced techniologies.
+- Go global in minutes.
+- Use serverless architectures.
+- Experiment more often.
+- Consider mechanical sympathy.
+5. **Cost optimization:** includes the ability to run systems to deliver business value at the lowest price point.
+*design principles*
+- Implement Cloud Financial Management.
+-  Adopt a consumption model.
+- Measure overall efficiency.
+- Stop spending money on undifferentiated heavy lifting.
+- Analyze and attribute expenditure.
+6. **Sustainability:**focuses on environmental impacts, especially energy consumption and efficiency, since they are important levers for architects to inform direct action to reduce resource usage.
+*design principles*
+- Understand your imapact.
+- Establish sustainaility goals.
+- Maximize utilization.
+- Anticipate and adopt new, more efficient hardware and software offerings.
+- Use managed services.
+- Reduce the downstream impact of your cloyd workloads.
+
+
 
 
 </p>
@@ -129,6 +182,7 @@ Allows you one to reny and manage virtual servers in the cloud. It provides secu
 ### Networking Services.
 1. **Amazon Virtual Private Cloud(VPC):** lets one provision logically isolated section of AWS cloud where you can launch AWS resources in a virtual network that you define.
 - **Subnets:** logical partition of an IP network into smaller network segments that allows one group resources together. Can be *private subnet* (access to internet) or *public subnet* (no access to internet).<br>
+
 ***security in a VPC***
 - **Network Access Control Lists(NACLs:)** acts as virtual firewall at the sunet level. *Allow or Deny rules.* They offer *stateless packet filtering* meaning they do not remember previous decisions made hence has to check packets that cross the subnet border each way (inbound and outbound).
 - **Security Groups:** acts as virtual firewall at the instance level. *Create only Allow rules. They offer *stateful packet filtering* meaning they remember previous decisiond made for incoming packets. It only checks inbound traffic.<br>
