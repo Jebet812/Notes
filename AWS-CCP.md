@@ -96,7 +96,26 @@
 
 **Advantages of CAF**
 
+*** Capabilities and Perspectives***
+1. *Business Perspective* IT alignes with business needs and the IT investments can demonstate business results.
+2. *People perspective* help organizations more rapidly evolve to a culture of continous growth, learning.
+3. *Governance perspective* ensure skills and process align with IT strategy and goals with business strategy and goals.
+4. *Platform perspective* understand and communicate nature of IT systems and their relationships.
+5. *Security perspective* ensure organization meets its security objectives.
+6. *Operations perspective* align and support the operations of business and how business will be conducted.<br>
 
+***Benefits of CAF***
+- Reduced business risk
+- Improved environmental, social,
+and governance (ESG) performance
+- Increased revenue
+- Increased operational efficiency<br>
+
+***How it works***
+- **Envision:** Identify and prioritize transformation opportunities in line with your strategic objectives. 
+- **Align:** assess your rediness to architect, build, secure & operate your modern data platform. Identify capability gaps and cross-organizational dependencies.
+- **Launch:** grow your legacy and develop new modern applications. Deliver pilots in production and demonstrate incremental business value.  Pilots should be highly impactful and when successful they will influence future direction.
+- **Scale:** Expand pilots and business value to desired scale and ensure that the business benefits associated with your cloud investments are realized and sustained.
 
 </p>
 </details>
