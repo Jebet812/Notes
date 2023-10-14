@@ -413,11 +413,11 @@ Elastic Load Balancing scales your load balancer capacity automatically in respo
 
 ### User Permsissions and Acces
 1. **AWS Root User**
-2. **AWS Identity and Access Management**
-3. **IAM Users**
-4. **IAM Policies** 
-5. **IAM Groups**
-6. **IAM Roles**
+2. **AWS Identity and Access Management**lets you create and manage AWS users and groups and use permissions to allow and deny their access to AWS resources. 
+3. **IAM Users** end users that log into the console or interact with AWS resources programmatically by clicking UI interfaces.
+4. **IAM Policies** JSON documents that grant permissions for specific user, group or role to access service. Policies are attached to *IAM identities.*
+5. **IAM Groups** groups users so they share permissions.
+6. **IAM Roles** roles grant resources permissions to specific AWS API actions. Associate policies to a role and assign it to an AWS resource.
 
 ### AWS Organizations
 - Provides centaralized management of AWS accounts
@@ -441,10 +441,17 @@ To get resources, get whitepapers, documentation and learn more about AWS compli
 ### Encryption
 1. **AWS Key Management Service(KMS):** enables creation and management of encryption keys. Intergrates with *AWS Cloudtrail* to provide logs to help meet regulation and compliance.
 
+
+
 ### Additional Security Services
 1. **Amazon Inspector:** automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure.
 2. **Amazon GuardDuty:** threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation.
 3. **AWS WAF:** helps you protect against common web exploits and bots that can affect availability, compromise security, or consume excessive resources. Uses *web Access Control List(ACL)* to lock or allow traffic.
+4. **AWS Security Centre:** a cloud security posture management (CSPM) service that performs security best practice checks, aggregates alerts, and enables automated remediation.
+5. **AWS Security Blog:**
+6. **AWS Secret Manager:** ps you manage, retrieve, and rotate database credentials, API keys, and other secrets throughout their lifecycles.
+7. **Amazon Cognito:** helps you implement customer identity and access management (CIAM) into your web and mobile applications. You can quickly add user authentication and access control to your applications in minutes.
+
 
 ### Security Design Principles
 1. Implement a strong identity foundation.
@@ -527,10 +534,12 @@ The tiers have different knowledge requirements.
 * Security
 * Fault Tolerance
 * Service Limits
-2. **AWS Cloudwatch:**
-3. **AWS Cloudtrail:**
-4.  **AWS Config:** used to check if resources are configured the way you'd want them to be.
+2. **AWS Cloudwatch:** a collection of multiple services. Enables one monitor and manage bvarious metrics and configure alarm action based on data from the metrics.
+3. **AWS Cloudtrail:** log all API calls between AWS services. develop developer misconfiguration, detect malicious actors and automate responses. Enables operational auditing and risk auditing. (where, when, who, where). Will by default collect logs fr the last 90 days if you need more create a *trail.*
+4. **AWS Config:** used to check if resources are configured the way you'd want them to be.
 It enables you to assess, audit, and evaluate the configurations of your AWS resources. Config continuously monitors and records your AWS resource configurations and allows you to automate the evaluation of recorded configurations against desired configurations. With Config, you can review changes in configurations and relationships between AWS resources, dive into detailed resource configuration histories, and determine your overall compliance against the configurations specified in your internal guidelines. This enables you to simplify compliance auditing, security analysis, change management, and operational troubleshooting.
+5. **AWS X-Ray:** distributed tracing system. You can use to pinpoint issues with microservices. See how data moves from one app to another, how long it took and if it failed to move forward.
+6. **AWS Audit Manager:** to map your compliance requirements to AWS usage data with prebuilt and custom frameworks and automated evidence collection.
 
 </p>
 </details>
