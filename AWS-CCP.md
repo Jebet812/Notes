@@ -167,6 +167,7 @@ There are more edge locations than regions and availability zones.
 Allows you one to reny and manage virtual servers in the cloud. It provides secure, resizable compute capacity in the cloud as EC2 instances.<br/> 
 *Servers* are the physical compute hardware running in a data center.<br/> 
 *Instances* are not considered serverless because they exist on a server in a datacentre.<br/> 
+EC2 instances have the following states *pending, running, stopping, stopped, shutting-down, terminated.*
 - **Amazon Machine Image:** predefined configuration for a virtual machine. Includes the number of CPUs, amount of memory RAM, amount of network bandwidth, the OS.
 
 * **Accesing EC2 Instance**
@@ -412,7 +413,27 @@ Elastic Load Balancing scales your load balancer capacity automatically in respo
 2. **Customer's Responsibility (Security In The Cloud)**
 
 ### User Permsissions and Acces
-1. **AWS Root User**
+1. **AWS Root User** special userwho is created at the time of AWS account creation. 
+- Uses an email and password to login.
+- Cannot be deleted.
+- Has full permissions to the account and its permssions cannot be limited.
+- There can only be one per AWS account.
+- Strongly recommeded to never use Root User Access keys.
+- Turn on MFA.
+
+***Tasks that only the Root User can perform***
+- Change account settings e.g account name, email address, root user password and root user access keys.
+- Restore IAM  permissions.
+- Activate IAM access to the BIlling and Cost Management console.
+- View certain tax invoices.
+- Close AWS account.
+- Change or cancel AWS Support Plan.
+- Register as a seller in the Reserved Instance Marketplace.
+- Enable MFA delete on S3 bucket.
+- Edit and delete.
+- Edit and delete Amazon s3 bucket policy includes invalid VPC ID and VPC endpoint ID.
+- Sign up for GovCloud.
+
 2. **AWS Identity and Access Management**lets you create and manage AWS users and groups and use permissions to allow and deny their access to AWS resources. 
 3. **IAM Users** end users that log into the console or interact with AWS resources programmatically by clicking UI interfaces.
 4. **IAM Policies** JSON documents that grant permissions for specific user, group or role to access service. Policies are attached to *IAM identities.*
@@ -451,6 +472,7 @@ To get resources, get whitepapers, documentation and learn more about AWS compli
 5. **AWS Security Blog:**
 6. **AWS Secret Manager:** ps you manage, retrieve, and rotate database credentials, API keys, and other secrets throughout their lifecycles.
 7. **Amazon Cognito:** helps you implement customer identity and access management (CIAM) into your web and mobile applications. You can quickly add user authentication and access control to your applications in minutes.
+8. **AWS Sign Sign-On(AWS SSO):** where you can create, connect your AWS identities in AWS once and manage access centrally across AWS organization. 
 
 
 ### Security Design Principles
