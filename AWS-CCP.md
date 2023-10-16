@@ -199,7 +199,7 @@ EC2 instances have the following states *pending, running, stopping, stopped, sh
 #### Containers
 1. **Elastic Container Service (ECS):** fully managed container orchestration service that simplifies your deployment, management, and scaling of containerized applications.
 2. **Elastic Container Registry (ECR):** a fully managed container registry offering high-performance hosting, so you can reliably deploy application images and artifacts anywhere
-3. **ECS Fargate:** serverless compute engine for containers. Comaptible with EKS and ECS
+3. **ECS Fargate:** serverless compute engine for containers. Compatible with EKS and ECS
 4. **Elastic Kubernetes Servise (EKS):** a managed Kubernetes service that makes it easy for you to run Kubernetes on AWS and on-premises
 
 #### High Performance Computing Services
@@ -262,7 +262,7 @@ EC2 instances have the following states *pending, running, stopping, stopped, sh
 4. **Amazon RedShift:** Data warehousing service you can use for big data and analytics.<br>
 
 ***Additional Database Services***
-* Amazon DocumentDB (with Mongo DB compatibility)
+* **Amazon DocumentDB (with Mongo DB compatibility):** is a fully managed native JSON document database that makes it easy and cost effective to operate critical document workloads at virtually any scale without managing infrastructure.
 * Amazon Neptune
 * Amazon Quantum Ledger Database
 * Amazon Managed Blockchain
@@ -312,7 +312,7 @@ EC2 instances have the following states *pending, running, stopping, stopped, sh
 4. **Amazon Elastic MapReduce (EMR):** used for data analysis and processing. Can create reports like Redshift but suited when transforming unstructured data to structured data on the fly. Helps you analyze and process vast amounts of data by distributing the computational work across a cluster of virtual servers running in the AWS Cloud. 
 5. **Kinesis Data Streams:** real time data streaming data service. For real time analytics, click streams and ingesting data from IoT devices.
 6. **Kinesis Firehose:** serverless and simpler version of Data Streams. 
-7. **Amazon Kinesis Data Analytics:** allows you run queries against dta that is flowing through real time stream so as to create reports and analysis on emerging data.
+7. **Amazon Kinesis Data Analytics:** allows you run queries against data that is flowing through real time stream so as to create reports and analysis on emerging data.
 8. **Amazon Kinesis Video Streams:** allows to analyze or apply processing on real-time streaming video.
 9. **Managed Kafka Service (MSK):** fully managed Kafka Service.
 10. **Redshift:** petabyte size data warehouse. Quickly generate analytics or reports from large amount of data.
@@ -548,7 +548,7 @@ The tiers have different knowledge requirements.
 
 ## Monitoring and Analytics
 1. **AWS Trusted Advisor** recommendation tool that automatically and actively monitors AWS account and provide actional recommendation.<br>
-7 Trusted Advisor Checks (*MFA root account, security groups, s3 bucket permissions, RDS Public Snapshots, IAM use, service limits*) for basic and developer ad all for business and enterprise.
+7 Trusted Advisor Checks (*MFA root account, security groups, s3 bucket permissions, RDS Public Snapshots, IAM use, service limits*) for basic and developer and all for business and enterprise.
 
 *Categories of Trust Advisor*
 * Cost Optimization
