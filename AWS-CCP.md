@@ -39,7 +39,7 @@
 
 ### Well Architected Framework
 
-***Pillars**
+***Pillars***
 1. **Operational Excellence:** ability to support development and run workloads effectively, gain insight into their operations, and to continuously improve supporting processes and procedures to deliver business value.<br>
 
 *design principles*
@@ -48,7 +48,7 @@
 - Refine operations procedures frequently
 - Anticipate failure.
 - Learn from all operational failures.
-2. **Security:**bility to protect data, systems, and assets to take advantage of cloud technologies to improve your security.<br>
+2. **Security:** ability to protect data, systems, and assets to take advantage of cloud technologies to improve your security.<br>
 
 *design principles*
 - Implement a strong identity foundation.
@@ -94,9 +94,9 @@
 
 ### Cloud Adoption Framework (CAF)
 
-**Advantages of CAF**
+**Advantages of CAF** 
 
-*** Capabilities and Perspectives***
+***Capabilities and Perspectives*** 
 1. *Business Perspective* IT alignes with business needs and the IT investments can demonstate business results.
 2. *People perspective* help organizations more rapidly evolve to a culture of continous growth, learning.
 3. *Governance perspective* ensure skills and process align with IT strategy and goals with business strategy and goals.
@@ -163,7 +163,7 @@ There are more edge locations than regions and availability zones.
 
 ### Compute 
 
-1. **Elastic Compute Cloud (EC2)**
+1 . **Elastic Compute Cloud (EC2)**
 Allows you one to reny and manage virtual servers in the cloud. It provides secure, resizable compute capacity in the cloud as EC2 instances.<br/> 
 *Servers* are the physical compute hardware running in a data center.<br/> 
 *Instances* are not considered serverless because they exist on a server in a datacentre.<br/> 
@@ -185,13 +185,13 @@ EC2 instances have the following states *pending, running, stopping, stopped, sh
 6. *Storage Optimized*
 
 * **Amazon EC2 Pricing**
-- *On Demand* short term, irregular workloads that cannot be interrupted.
-- *Savings Plan* 
-- *Reserved Instances* steady-state, predictable usage. 1 yr to 3yr contract. Starndard 75% or 54% convertible
-- *Spot Instances* flexible start and end times that can be interrrupted
-- *Dedicated Host*physical servers capacity fully dedicated to use.
+1. *On Demand* short term, irregular workloads that cannot be interrupted.
+2. *Savings Plan* 
+3. *Reserved Instances* steady-state, predictable usage. 1 yr to 3yr contract. Starndard 75% or 54% convertible
+4. *Spot Instances* flexible start and end times that can be interrrupted
+5. *Dedicated Host*physical servers capacity fully dedicated to use.
 
-2. **Amazon Lightsail:** managed virtual server service. Friendly version of EC2.
+2 . **Amazon Lightsail:** managed virtual server service. Friendly version of EC2.
 
 #### Serverless
 1. **AWS Lambda:** a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.
@@ -212,19 +212,19 @@ EC2 instances have the following states *pending, running, stopping, stopped, sh
 1. **Amazon Virtual Private Cloud(VPC):** lets one provision logically isolated section of AWS cloud where you can launch AWS resources in a virtual network that you define.
 - **Subnets:** logical partition of an IP network into smaller network segments that allows one group resources together. Can be *private subnet* (access to internet) or *public subnet* (no access to internet).<br>
 
-***security in a VPC***
-- **Network Access Control Lists(NACLs:)** acts as virtual firewall at the sunet level. *Allow or Deny rules.* They offer *stateless packet filtering* meaning they do not remember previous decisions made hence has to check packets that cross the subnet border each way (inbound and outbound).
-- **Security Groups:** acts as virtual firewall at the instance level. *Create only Allow rules. They offer *stateful packet filtering* meaning they remember previous decisiond made for incoming packets. It only checks inbound traffic.<br>
-2. **Route Tables:** determines where network traffic from your subnets are directed. Contains set of rules that you configure to direct network traffic from subnet. Each suunet must be associated with a route table.
-3. **Internet Gateway:** enables access to internet.
-4. **AWS Direct Connect:** enables a dedicated prIvate connection between the data centre and VPC (very fast connection)
-5. **AWS Virtual Private Network:** a secure connection etween on-premise, remote offices, mobile employees.
-6. **Private Links (VPC Interface Endpoints):** provides private connectivity between virtual private clouds (VPCs) and your on-premises networks without exposing your traffic to the public internet.
-7. **Network Address Translation:** enables instances in private cloud to connect to internet or other AWS resources ut prevents public internet access from initiating the connection.
-8. **VPC Peering:** enables you privately route traffic between VPCs.
-9. **AWS CloudFront:** content delivery network (CDN) to customers around the world with low latency and high transfer speeds.
-10. **AWS Global Accelerator:** networking service that helps improve application availability, performance, and security using the AWS global network.
-11. **Amazon Route53:**  highly available and scalable Domain Name System (DNS) web service. Route 53 connects user requests to internet applications running on AWS or on-premises. You can register domain name on it too.
+  ***security in a VPC***
+   - **Network Access Control Lists(NACLs:)** acts as virtual firewall at the sunet level. *Allow or Deny rules.* They offer *stateless packet filtering* meaning they do not remember previous decisions made hence has to check packets that cross the subnet border each way (inbound and outbound).
+  - **Security Groups:** acts as virtual firewall at the instance level. *Create only Allow rules. They offer *stateful packet filtering* meaning they remember previous decisiond made for incoming packets. It only checks inbound traffic.<br>
+1. **Route Tables:** determines where network traffic from your subnets are directed. Contains set of rules that you configure to direct network traffic from subnet. Each suunet must be associated with a route table.
+2. **Internet Gateway:** enables access to internet.
+3. **AWS Direct Connect:** enables a dedicated prIvate connection between the data centre and VPC (very fast connection)
+4. **AWS Virtual Private Network:** a secure connection etween on-premise, remote offices, mobile employees.
+5. **Private Links (VPC Interface Endpoints):** provides private connectivity between virtual private clouds (VPCs) and your on-premises networks without exposing your traffic to the public internet.
+6. **Network Address Translation:** enables instances in private cloud to connect to internet or other AWS resources ut prevents public internet access from initiating the connection.
+7. **VPC Peering:** enables you privately route traffic between VPCs.
+8. **AWS CloudFront:** content delivery network (CDN) to customers around the world with low latency and high transfer speeds.
+9. **AWS Global Accelerator:** networking service that helps improve application availability, performance, and security using the AWS global network.
+10. **Amazon Route53:**  highly available and scalable Domain Name System (DNS) web service. Route 53 connects user requests to internet applications running on AWS or on-premises. You can register domain name on it too.
 
 
 
@@ -238,21 +238,21 @@ EC2 instances have the following states *pending, running, stopping, stopped, sh
 #### Object Storage 
 1. **Amazon Simple Service Storage (S3):** Object storage built to retrieve any amount of data from anywhere. Cost attributed to storage class andsize of gigabyte of objects stored.
 
-***S3 storage classes**
--  *S3 Standard* for general-purpose storage of frequently accessed data 
-- *S3 Intelligent-Tiering* for data with unknown or changing access patterns. uses machine learning. Not accessed in 30 days moves to S3 IA
-- *S3 Standard-Infrequent Access (S3 Standard-IA)* infrequent accesed data. 3AZs and has retrieval fee. 
-- *S3 One Zone-Infrequent Access (S3 One Zone-IA)* for long-lived, but less frequently accessed data. Only one AZ. Has retieval fee.
-- *S3 Glacier* for long-term archive and digital preservation. Retrieve data minute to hours
-- *S3 glacier Deep Archive* lowest storage class. Retrieve data in hours.
+   ***S3 storage classes***
+      -  *S3 Standard* for general-purpose storage of frequently accessed data 
+     - *S3 Intelligent-Tiering* for data with unknown or changing access patterns. uses machine learning. Not accessed in 30 days moves to S3 IA
+    - *S3 Standard-Infrequent Access (S3 Standard-IA)* infrequent accesed data. 3AZs and has retrieval fee. 
+    - *S3 One Zone-Infrequent Access (S3 One Zone-IA)* for long-lived, but less frequently accessed data. Only one AZ. Has retieval fee.
+    - *S3 Glacier* for long-term archive and digital preservation. Retrieve data minute to hours
+    - *S3 glacier Deep Archive* lowest storage class. Retrieve data in hours.
 
-* **Amazon S3 Transfer Acceleration:** enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket. Transfer Acceleration takes advantage of Amazon CloudFront’s globally distributed edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path.
+- **Amazon S3 Transfer Acceleration:** enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket. Transfer Acceleration takes advantage of Amazon CloudFront’s globally distributed edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path.
 #### ***Other Definitions***
 1. **AWS Storage Gateway:** allows you to build a data warehouse on the cloud. Hybrid cloud storage services that provide on-premises access to virtually unlimited cloud storage.
 2. **AWS Snow Family:** storage and compute devices to move data in and out of cloud
-- *AWS Snowcone:* 8TB storage in HDD and 14TB storage in SSD
-- *AWS Snowball Edge* storage optimized 80TB and compute optimized 39.5TB
-- *AWS Snowmobile* 100PB storage
+   - *AWS Snowcone:* 8TB storage in HDD and 14TB storage in SSD
+   - *AWS Snowball Edge* storage optimized 80TB and compute optimized 39.5TB
+   - *AWS Snowmobile* 100PB storage
 3. **AWS Backup:**
 
 ### Databases
@@ -274,7 +274,7 @@ EC2 instances have the following states *pending, running, stopping, stopped, sh
 1. **Amazon Simple Notification Service(SNS):** is a pu-sub messaging system which sends notifications via various fomats. Push messages sent to subcribers.
 2. **Amazon Simple Queue Service (SQS):** is a queueing service send events in a queue and other applications pull the queue for messages. It offers a reliable, highly-scalable hosted queue for storing messages as they travel between applications or microservices. It moves data between distributed application components and helps you decouple these components
 3. **AWS Step Functions:** a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines.
-4. **Amazon EventBridge:**serverless event bus that makes it easy to connect applications together from your own application, third party services and AWS services.
+4. **Amazon EventBridge:** serverless event bus that makes it easy to connect applications together from your own application, third party services and AWS services.
 5. **Kinesis:** real time dtreaming data service
 6. **Amazon MQ:** managed message broker service that uses ApacheActiveMQ.
 7. **Managed Kafka Service(MSK):** fully managed Kafka Service.
@@ -306,7 +306,7 @@ EC2 instances have the following states *pending, running, stopping, stopped, sh
 21. **Amazon Kendra:** enterprise ML search engine service. It uses natural language to suggest answers to question instead of jsut simple keyword matching.
 
 ### Big Data and Analytics Services
-1. **Amazon Athena:** serverless interactive query service. Take CSV and JSON files in S3  bucket and load them to temporary SQL tables which you can run SQL queries,
+1. **Amazon Athena:** serverless interactive query service. Take CSV and JSON files in S3  bucket and load them to temporary SQL tables which you can run SQL queries.
 2. **Amazon CloudSearch:** fully managed search service. Add search to service.
 3. **Amazon Elasticsearch Service (ES):** managed Elasticsearch cluster. It is an open source full-text search engine. Robust than CloudSearch but requires more server and operational maintenance.
 4. **Amazon Elastic MapReduce (EMR):** used for data analysis and processing. Can create reports like Redshift but suited when transforming unstructured data to structured data on the fly. Helps you analyze and process vast amounts of data by distributing the computational work across a cluster of virtual servers running in the AWS Cloud. 
@@ -317,8 +317,8 @@ EC2 instances have the following states *pending, running, stopping, stopped, sh
 9. **Managed Kafka Service (MSK):** fully managed Kafka Service.
 10. **Redshift:** petabyte size data warehouse. Quickly generate analytics or reports from large amount of data.
 11. **AWS Data Pipeline:** automates the movement of data. Move data between compute and storage services.
-12. **AWS Glue:** is an Extract, Transform, Load Service. move data from a location that need transformation before getting to the final destination. Like DMS but more robust.
-13. **AWS Lake Formation:** centralized, curated and secured repository that stores data until neede.
+12. **AWS Glue:** is an Extract, Transform, Load Service. Moves data from a location that need transformation before getting to the final destination. Like DMS but more robust.
+13. **AWS Lake Formation:** centralized, curated and secured repository that stores data until needes.
 14. **AWS Data Exchange:** catalogue for third party data sets. You can download for free subscribe or purcase datasets.
 15. **Amazon Quicksight:** business intelligence (BI) dashboard. Requires little to know programming knowledge and connect to different databases or AWS storage services. 
 
@@ -346,56 +346,56 @@ EC2 instances have the following states *pending, running, stopping, stopped, sh
 3. **AWS Device Farm:** application testing device that lets one improve quality of web and mobile apps by testing across a range of desktop browsers and real mobile devices; without having to provision and manage any testing infrastructure.
 
 ### Internet of Things (IoT)
-1. **AWS IoT Core:**lets you connect billions of IoT devices and route trillions of messages to AWS services without managing infrastructure.
+1. **AWS IoT Core:** lets you connect billions of IoT devices and route trillions of messages to AWS services without managing infrastructure.
 2. **AWS IoT Greengrass:** software that extends cloud capabilities to local devices. Devices can then collect and analyze data closer to the source of information, react autonomously to local events and communicate securely with each other on local networks.
 
 ### Cloud Architecture
 * ***High Availability*** Ability for service to remain available by ensuring no single point of failure. Ensure certain level of performance.
-1. **Elastic Load Balancer:** automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. <br>
+  * **Elastic Load Balancer:** automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. <br>
 Monitors the health of its registered targets, and routes traffic only to the healthy targets.<br> 
 Elastic Load Balancing scales your load balancer capacity automatically in response to changes in incoming traffic.
 
 * ***High Scalability*** Increase capacity based on the increasing demand of traffic, memory and computing power.<br>
-- *vertical scaling* - upgrade to bigger server
-- *horizontal scaling* - add more servers of the same size
+   - *vertical scaling* - upgrade to bigger server
+   - *horizontal scaling* - add more servers of the same size
 
 * ***High Elasticity*** Ability to automatically increase or decrease capacity based on the current demand or traffic, memory and computing power
-- *scaling out* - add more servers of the same size
-- *scaling in* - Removing underutilized servers of the same size
-1. **Auto Scaling Groups:** AWS feature that automatically adds and removes servers based on scaling rules you define on metrics
+   - *scaling out* - add more servers of the same siz
+   - *scaling in* - Removing underutilized servers of the same size
+  1. **Auto Scaling Groups:** AWS feature that automatically adds and removes servers based on scaling rules you define on metrics
 
 * ***Highly Fault Tolerant:***  Ability for service to ensure there is no point of failure. Prevent the chance of failure
-- *fail-overs* when you plan to shift traffic to redundant system incase primary system fails.
-1. **RDS Multi-AZ**  run duplicate standby database in another AZ incase primary database fails.
+   - *fail-overs* when you plan to shift traffic to redundant system incase primary system fails.
+   1. **RDS Multi-AZ**  run duplicate standby database in another AZ incase primary database fails.
 
 * ***High Durability*** Recover from disaster and prevent loss of data.
-1. **CloudEndure Disaster Recovery** replicates machines into low-cost staging area in target AWS account and preffered region for fast recovery.
+   1. **CloudEndure Disaster Recovery** replicates machines into low-cost staging area in target AWS account and preffered region for fast recovery.
 
 * ***Business Continuity Plan*** documet outlining how business will operate during unplanned service distruption.
-- *Recovery Point Objective* maximum amount of data loss
-- *Recovery Time Objective* maximum amount of downtime business can tolerate witout financial loss
+  - *Recovery Point Objective* maximum amount of data loss
+  - *Recovery Time Objective* maximum amount of downtime business can tolerate witout financial loss
 
 * ***Disaster Recovery Options***
-1. **Backup & Restore** *(RTO/RPO):hours*
-- Lower Priority use cases.
-- Provision all AWS Resources
-- Restores backup after event
-- cost $
-2. **Pilot Light** *(RTO/RPO):10min*
-- Data live
-- Services idle
-- Provision some AWS resources and scale after event
-- Cost $$
-3. **Warm Standby** *(RTO/RPO):minutes*
-- Always running but smaller
-- Business critical
-- Scale AWS resources after event
-- Cost $$$
-4. **Multi-site active/active** *(RTO/RPO):realtime*
-- Zero downtime
-- Near zero data loss
-- Mission critical servers
-- Cost $$$$
+  1. **Backup & Restore** *(RTO/RPO):hours*
+      - Lower Priority use cases.
+      - Provision all AWS Resources
+      - Restores backup after event
+      - cost $
+  2. **Pilot Light** *(RTO/RPO):10min*
+      - Data live
+      - Services idle
+      - Provision some AWS resources and scale after event
+      - Cost $$
+  3. **Warm Standby** *(RTO/RPO):minutes*
+     - Always running but smaller
+     - Business critical
+     - Scale AWS resources after event
+     - Cost $$$
+  4. **Multi-site active/active** *(RTO/RPO):realtime*
+     - Zero downtime
+     - Near zero data loss
+     - Mission critical servers
+     - Cost $$$$
 
 
 </p>
@@ -414,25 +414,25 @@ Elastic Load Balancing scales your load balancer capacity automatically in respo
 
 ### User Permsissions and Acces
 1. **AWS Root User** special userwho is created at the time of AWS account creation. 
-- Uses an email and password to login.
-- Cannot be deleted.
-- Has full permissions to the account and its permssions cannot be limited.
-- There can only be one per AWS account.
-- Strongly recommeded to never use Root User Access keys.
-- Turn on MFA.
+   - Uses an email and password to login.
+   - Cannot be deleted.
+   - Has full permissions to the account and its permssions cannot be limited.
+   - There can only be one per AWS account.
+   - Strongly recommeded to never use Root User Access keys.
+   - Turn on MFA.
 
-***Tasks that only the Root User can perform***
-- Change account settings e.g account name, email address, root user password and root user access keys.
-- Restore IAM  permissions.
-- Activate IAM access to the BIlling and Cost Management console.
-- View certain tax invoices.
-- Close AWS account.
-- Change or cancel AWS Support Plan.
-- Register as a seller in the Reserved Instance Marketplace.
-- Enable MFA delete on S3 bucket.
-- Edit and delete.
-- Edit and delete Amazon s3 bucket policy includes invalid VPC ID and VPC endpoint ID.
-- Sign up for GovCloud.
+   ***Tasks that only the Root User can perform***
+    - Change account settings e.g account name, email address, root user password and root user access keys.
+    - Restore IAM  permissions.
+    - Activate IAM access to the BIlling and Cost Management console.
+    - View certain tax invoices.
+    - Close AWS account.
+    - Change or cancel AWS Support Plan.
+    - Register as a seller in the Reserved Instance Marketplace
+    - Enable MFA delete on S3 bucket.
+    - Edit and delete.
+    - Edit and delete Amazon s3 bucket policy includes invalid VPC ID and VPC endpoint ID.
+    - Sign up for GovCloud.
 
 2. **AWS Identity and Access Management**lets you create and manage AWS users and groups and use permissions to allow and deny their access to AWS resources. 
 3. **IAM Users** end users that log into the console or interact with AWS resources programmatically by clicking UI interfaces.
@@ -448,15 +448,15 @@ Use *service control policies* to centrally control pernmissions for the account
 
 ### Compliance 
 1. **AWS Artifact:** service that provides on demand access to AWS security and compliance reports and select online agreements. Has two sections:
-* *AWS Artifact Agreements*
-* *AWS Artifact Reports* 
+   * *AWS Artifact Agreements*
+   * *AWS Artifact Reports* 
 
 To get resources, get whitepapers, documentation and learn more about AWS compliance go to *compliance centre*
 
 ### Denial of  Service Attacks
 1. **AWS Shield:** protects applications against DDoS attacks. Provides two levels;
-* *AWS Shield Starndard:* protects all customers from common, frequent attacks at no cost.
-* *AWS Shield Advance:* paid service that provides detailed attack diagnosis and ability to detect and mitigate sophisticated attacks. For higher levels of protection against attacks targeting your web applications running on Amazon EC2, Elastic Load Balancing (ELB), CloudFront, and Route-53 resources, you can subscribe to AWS Shield Advanced. 
+   * *AWS Shield Starndard:* protects all customers from common, frequent attacks at no cost.
+   * *AWS Shield Advance:* paid service that provides detailed attack diagnosis and ability to detect and mitigate sophisticated attacks. For higher levels of protection against attacks targeting your web applications running on Amazon EC2, Elastic Load Balancing (ELB), CloudFront, and Route-53 resources, you can subscribe to AWS Shield Advanced. 
 
 
 ### Encryption
@@ -502,18 +502,18 @@ To get resources, get whitepapers, documentation and learn more about AWS compli
 
 ### Billing and Pricing
 1. **Consolidated Billing:** feature of *AWS Organizations* that allows to pay for multiple accounts with one bill<br>
-No additional cost<br>
-Use *Cost Explorer* to visualize usage for consolidated billing<br>
-Allows for *Volume Discounts* the more you use the more you save.
+   - No additional cost<br>
+   - Use *Cost Explorer* to visualize usage for consolidated billing<br>
+   - Allows for *Volume Discounts* the more you use the more you save.
 2. **AWS Free-Tier:** allows users to use AWS at no cost 
 3. **AWS Credits** equivalent of USD on AWS platform
 4. **AWS Cost Explorer**  lets you visualize and manage your AWS costs and usage over time. Offers historical records but also creates forecasts and savings recommendations
 5. **AWS Budgets** gives ability to set up alerts if you exceed or are approaching your defines budget. Can be used for forecast costs but is limited compared to Cost Explorer or doing analysis with AWS Cost and Usage Reports along with BI
 6. **AWS Budget Reports** used alongside AWS Budget to create and send daily, weekly or monthly reports to monitor performance of AWS Budget emailed to user.
 7. **AWS Cost and Usage Report:** generate detailed spreadsheet enabling one understand and analyse AWS costs.
-- Places the reports into S3
-- Use Athena to turn the report to queriable database.
-- Use QuickSight to visualize billing and data as graphs.
+   - Places the reports into S3
+   - Use *Athena* to turn the report to queriable database.
+   - Use *QuickSight* to visualize billing and data as graphs.
 8. **Cost Allocation Tags:** optional metadata that can be attached to AWS resource so when you generate out a Cost and Usage Report you can use the data to better analyze your data. Two types of tags user-defined and AWS generated.
 9. **Billing Alarms:** create alarms in Cloudwatch to monitor speed.
 10. **AWS Pricing Calculator:** predict the cost of moving resources from on-premise to the cloud.
@@ -523,16 +523,16 @@ Allows for *Volume Discounts* the more you use the more you save.
 2. **AWS Personal Health Dashboard:** provides alerts and guidance for AWS events that might affect your environment. Available for alll customers. You can use alerts to get notified.
 3. **AWS Abuse** *AWS Trust & Safety* is ateam that deals specifically with abuses occuring in AWS platform for the following issues spam, port-scanning, Denial-of-Service (DoS) attack, intrusion attempts, hosting prohibited content, distributed content.
 4. **Service Level Agreements(SLA):** formal commitment about the expected level of service between a customer and provider. If needs not met customer eligible for compensation in terms of *Financial or Service Credits*
-* *Service Level Indicator(SLI)* measure/measurement that indicates what measure of performance is getting at any given time *e.g* uptime, performance, availability, throughput, latency, error rate, durability and correctness
-* *Service Level Objective(SLO):* objective the provider has agreed to meet. Represented as a specific percentage over a period of time
+    * *Service Level Indicator(SLI)* measure/measurement that indicates what measure of performance is getting at any given time *e.g* uptime, performance, availability, throughput, latency, error rate, durability and correctness
+   * *Service Level Objective(SLO):* objective the provider has agreed to meet. Represented as a specific percentage over a period of time
 5. **AWS Partner Network:** global partner program for AWS. Joining APN will open org for business oppotunities and allows exclusive training and marketing events. You can be:
-- *Consulting Partner* help companies utilize AWS.
-- *Technology Partner* build technology on top of AWS as a service offering.<br>
+   - *Consulting Partner* help companies utilize AWS.
+   - *Technology Partner* build technology on top of AWS as a service offering.<br>
 Partner belongs to specific tier: *Select, Advanced or Premier.*
 The tiers have different knowledge requirements.
 6. **AWS Pricing APIs** There are two versions of API thata you can use to progammatically access pricing info
-- *Query API* pricing API via JSON
-- *Batch API* price list API via HTML
+   - *Query API* pricing API via JSON
+   - *Batch API* price list API via HTML
 * You can subscribe to *Amazon Simple Notification Service(SNS)* notifications to get alerts when prices for service change.
 7. **AWS Activate for Startups:** helps startups bring their ideas to life.
 8. **AWS IQ:** customers to quickly find, engage, and pay AWS Certified third-party experts for on-demand project work. 
@@ -547,21 +547,27 @@ The tiers have different knowledge requirements.
 <p>
 
 ## Monitoring and Analytics
-1. **AWS Trusted Advisor** recommendation tool that automatically and actively monitors AWS account and provide actional recommendation.<br>
-7 Trusted Advisor Checks (*MFA root account, security groups, s3 bucket permissions, RDS Public Snapshots, IAM use, service limits*) for basic and developer and all for business and enterprise.
+1 . **AWS Trusted Advisor:** recommendation tool that automatically and actively monitors AWS account and provide actional recommendation.<br>
+***7 Trusted Advisor Checks*** 
+(*MFA root account, security groups, s3 bucket permissions, RDS Public Snapshots, IAM use, service limits*) for basic and developer and all for business and enterprise.
 
 *Categories of Trust Advisor*
-* Cost Optimization
+   * Cost Optimization
 * Performance
 * Security
 * Fault Tolerance
 * Service Limits
-2. **AWS Cloudwatch:** a collection of multiple services. Enables one monitor and manage bvarious metrics and configure alarm action based on data from the metrics.
-3. **AWS Cloudtrail:** log all API calls between AWS services. develop developer misconfiguration, detect malicious actors and automate responses. Enables operational auditing and risk auditing. (where, when, who, where). Will by default collect logs fr the last 90 days if you need more create a *trail.*
-4. **AWS Config:** used to check if resources are configured the way you'd want them to be.
+
+2 . **AWS Cloudwatch:** a collection of multiple services. Enables one monitor and manage bvarious metrics and configure alarm action based on data from the metrics.
+
+3 . **AWS Cloudtrail:** log all API calls between AWS services. develop developer misconfiguration, detect malicious actors and automate responses. Enables operational auditing and risk auditing. (where, when, who, where). Will by default collect logs fr the last 90 days if you need more create a *trail.*
+
+4 . **AWS Config:** used to check if resources are configured the way you'd want them to be.
 It enables you to assess, audit, and evaluate the configurations of your AWS resources. Config continuously monitors and records your AWS resource configurations and allows you to automate the evaluation of recorded configurations against desired configurations. With Config, you can review changes in configurations and relationships between AWS resources, dive into detailed resource configuration histories, and determine your overall compliance against the configurations specified in your internal guidelines. This enables you to simplify compliance auditing, security analysis, change management, and operational troubleshooting.
-5. **AWS X-Ray:** distributed tracing system. You can use to pinpoint issues with microservices. See how data moves from one app to another, how long it took and if it failed to move forward.
-6. **AWS Audit Manager:** to map your compliance requirements to AWS usage data with prebuilt and custom frameworks and automated evidence collection.
+
+5 . **AWS X-Ray:** distributed tracing system. You can use to pinpoint issues with microservices. See how data moves from one app to another, how long it took and if it failed to move forward.
+
+6 . **AWS Audit Manager:** to map your compliance requirements to AWS usage data with prebuilt and custom frameworks and automated evidence collection.
 
 </p>
 </details>
